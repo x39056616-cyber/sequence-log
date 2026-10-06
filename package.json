@@ -36,7 +36,8 @@
     "rrule": "^2.8.1",
     "tailwind-merge": "^3.7.0",
     "zod": "^4.6.5",
-    "zustand": "^5.0.15"
+    "zustand": "^5.0.15",
+    "wrangler": "^4.147.0"
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.20.8",
@@ -56,8 +57,7 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vite-tsconfig-paths": "^6.1.1",
-    "vitest": "^5.0.3",
-    "wrangler": "^4.147.0"
+    "vitest": "^5.0.3"
   },
   "packageManager": "pnpm@11.25.0",
   "pnpm": {
@@ -67,4 +67,3 @@
     ]
   }
 }
-
