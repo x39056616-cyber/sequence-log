@@ -13,7 +13,10 @@
     "test:e2e": "playwright test",
     "pages:build": "pnpm build && npx @cloudflare/next-on-pages@1",
     "pages:preview": "npx wrangler pages dev .vercel/output/static",
-    "pages:deploy": "npx wrangler pages deploy .vercel/output/static"
+    "pages:deploy": "npx wrangler pages deploy .vercel/output/static",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
@@ -36,6 +39,7 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.8",
     "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^7.0.1",
@@ -54,5 +58,11 @@
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^5.0.3"
   },
-  "packageManager": "pnpm@11.25.0"
+  "packageManager": "pnpm@11.25.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  }
 }
