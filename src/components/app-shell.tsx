@@ -34,6 +34,7 @@ const nav = [
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false);
+  const [bootError, setBootError] = useState("");
   const pathname = usePathname();
   const navOpen = useUIStore((state) => state.navOpen);
   const setNavOpen = useUIStore((state) => state.setNavOpen);
@@ -45,11 +46,23 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const average = settings ? calculateStatusAverage(settings.status) : 60;
   const band = statusBand(average);
 
-  useEffect(() => { ensureSeed().finally(() => setReady(true)); }, []);
+  useEffect(() => {
+    let active = true;
+    const timeout = window.setTimeout(() => {
+      if (!active) return;
+      setBootError("本地数据库初始化超时。请关闭其他旧标签页后重试；此操作不会删除任务数据。");
+      setReady(true);
+    }, 8000);
+    ensureSeed()
+      .then(() => { if (active) { window.clearTimeout(timeout); setReady(true); } })
+      .catch((error) => { if (active) { window.clearTimeout(timeout); setBootError(error instanceof Error ? error.message : String(error)); setReady(true); } });
+    return () => { active = false; window.clearTimeout(timeout); };
+  }, []);
   useEffect(() => { document.documentElement.className = settings?.theme === "light" ? "light h-full antialiased" : "h-full antialiased"; }, [settings?.theme]);
   useEffect(() => { setNavOpen(false); }, [pathname, setNavOpen]);
 
   if (!ready) return <div className="grid min-h-screen place-items-center"><div className="text-center"><SequenceEmblem symbol="loading" size={80} className="mx-auto animate-pulse text-brass" /><p className="mt-4 text-sm text-muted">正在连接灰雾之上的记录……</p></div></div>;
+  if (bootError) return <div className="grid min-h-screen place-items-center p-6"><div className="panel max-w-xl rounded-lg p-6 text-center"><SequenceEmblem symbol="loading" size={64} className="mx-auto text-warning" /><h1 className="serif mt-4 text-xl">灰雾没有回应</h1><p className="mt-3 text-sm leading-6 text-muted">{bootError}</p><div className="mt-5 flex flex-wrap justify-center gap-2"><Button onClick={() => window.location.reload()}>刷新重试</Button><Button variant="secondary" onClick={async () => { if ("serviceWorker" in navigator) { const registrations = await navigator.serviceWorker.getRegistrations(); await Promise.all(registrations.map((registration) => registration.unregister())); } if ("caches" in window) { const keys = await caches.keys(); await Promise.all(keys.map((key) => caches.delete(key))); } window.location.reload(); }}>清除缓存并刷新</Button></div></div></div>;
   if (!profile || !state || !settings) return null;
   if (!state.pathwayId || !path || !sequence) return <Onboarding />;
 
