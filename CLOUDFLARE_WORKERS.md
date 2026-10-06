@@ -19,7 +19,7 @@ pnpm install --frozen-lockfile && npx opennextjs-cloudflare build
 Deploy command:
 
 ```text
-npx wrangler deploy
+pnpm exec wrangler deploy
 ```
 
 Preview command:

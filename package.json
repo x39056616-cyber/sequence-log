@@ -16,7 +16,7 @@
     "pages:deploy": "npx wrangler pages deploy .vercel/output/static",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare preview",
-    "cf:deploy": "opennextjs-cloudflare deploy"
+    "cf:deploy": "wrangler deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
@@ -56,7 +56,8 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vite-tsconfig-paths": "^6.1.1",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.3",
+    "wrangler": "^4.147.0"
   },
   "packageManager": "pnpm@11.25.0",
   "pnpm": {
@@ -66,3 +67,4 @@
     ]
   }
 }
+
