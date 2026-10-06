@@ -1,14 +1,9 @@
 import { afterEach, describe, expect, it } from "vitest";
-import { promises as fs } from "node:fs";
-import path from "node:path";
-import { publicAIConfig, readStoredConfig, writeStoredConfig } from "@/lib/ai/server-config";
+import { clearStoredConfig, publicAIConfig, readStoredConfig, writeStoredConfig } from "@/lib/ai/server-config";
 
-const CONFIG_PATH = path.join(process.cwd(), ".sequence-ai.json");
 const FAKE_KEY = "sk-test-1234567890abcdef";
 
-afterEach(async () => {
-  await fs.rm(CONFIG_PATH, { force: true });
-});
+afterEach(() => { clearStoredConfig(); });
 
 describe("AI server config security", () => {
   it("round-trips a stored key on the server", async () => {
@@ -46,3 +41,5 @@ describe("AI server config security", () => {
     }
   });
 });
+
+

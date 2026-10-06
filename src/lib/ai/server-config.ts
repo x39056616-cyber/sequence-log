@@ -1,5 +1,3 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import {
   AI_PROVIDER_PRESETS,
   defaultAIConfig,
@@ -10,11 +8,15 @@ import {
   type ResolvedAIConfig,
 } from "@/lib/ai/config";
 
-const CONFIG_PATH = path.join(process.cwd(), ".sequence-ai.json");
-
 export interface StoredAIConfig extends AIConfigInput {
   updatedAt: string | null;
 }
+
+type RuntimeStore = { value: StoredAIConfig | null };
+
+const globalStore = globalThis as typeof globalThis & { __sequenceAIConfig?: RuntimeStore };
+const memoryStore: RuntimeStore = globalStore.__sequenceAIConfig ?? { value: null };
+globalStore.__sequenceAIConfig = memoryStore;
 
 function sanitize(input: Partial<StoredAIConfig> | null | undefined): StoredAIConfig {
   const base = defaultAIConfig();
@@ -36,19 +38,22 @@ function sanitize(input: Partial<StoredAIConfig> | null | undefined): StoredAICo
   };
 }
 
+/**
+ * 共享部署采用 BYOK：API Key 只保存在访客浏览器，并通过请求头随单次请求发送。
+ * 服务端只保留 isolate 内内存副本，绝不再写服务器文件，也不会把 Key 作为公开配置返回。
+ */
 export async function readStoredConfig(): Promise<StoredAIConfig | null> {
-  try {
-    const raw = await fs.readFile(CONFIG_PATH, "utf8");
-    return sanitize(JSON.parse(raw) as Partial<StoredAIConfig>);
-  } catch {
-    return null;
-  }
+  return memoryStore.value;
 }
 
 export async function writeStoredConfig(input: Partial<AIConfigInput>): Promise<StoredAIConfig> {
   const next = sanitize({ ...input, updatedAt: new Date().toISOString() });
-  await fs.writeFile(CONFIG_PATH, JSON.stringify(next, null, 2), { encoding: "utf8", mode: 0o600 });
+  memoryStore.value = next;
   return next;
+}
+
+export function clearStoredConfig() {
+  memoryStore.value = null;
 }
 
 function envConfig(): StoredAIConfig | null {
@@ -73,7 +78,7 @@ function envConfig(): StoredAIConfig | null {
   });
 }
 
-/** Runtime file config wins over .env.local, which wins over local fallback. */
+/** Runtime memory config wins over .env, which wins over local fallback. */
 export async function resolveRuntimeAIConfig(): Promise<ResolvedAIConfig> {
   const stored = await readStoredConfig();
   if (stored && (stored.apiKey || stored.provider === "compatible")) {
@@ -101,7 +106,6 @@ export async function resolveRuntimeAIConfig(): Promise<ResolvedAIConfig> {
 export async function publicAIConfig() {
   const stored = await readStoredConfig();
   const resolved = await resolveRuntimeAIConfig();
-  // Never return the stored key to the browser: expose only a masked hint.
   const safeSelection = {
     provider: stored?.provider ?? resolved.provider,
     model: stored?.model ?? resolved.model,
@@ -134,16 +138,9 @@ export async function publicAIConfig() {
   };
 }
 
-
-
-
-
-
-
-
 /**
  * 优先使用「访客自带」的配置（请求头 x-sequence-ai，base64 JSON）。
- * 这样共享部署时不会消耗部署者的密钥；只有没带配置时才回落到部署者自己的环境变量/本地文件。
+ * 这样共享部署时不会消耗部署者的密钥；只有没带配置时才回落到部署者自己的环境变量。
  * baseUrl 仍然来自服务端白名单预设，访客无法把请求指向任意地址（防 SSRF）。
  */
 export async function resolveRequestAIConfig(request: Request): Promise<ResolvedAIConfig> {
@@ -155,15 +152,11 @@ export async function resolveRequestAIConfig(request: Request): Promise<Resolved
         : Buffer.from(header, "base64").toString("utf8");
       const parsed = JSON.parse(json) as Partial<AIConfigInput>;
       const stored = sanitize(parsed);
-      // 只要访客带了自己的配置，就只用访客的——即使没填 Key，
-      // 也绝不回落到部署者的密钥（否则所有人都会消耗站长的额度）。
       const resolved = resolveAIConfig(stored);
       return { ...resolved, configured: Boolean(stored.apiKey) || stored.provider === "compatible", source: "runtime" };
     } catch {
-      // 配置损坏：同样不回落，直接视为未配置
       return { ...resolveAIConfig(defaultAIConfig()), configured: false, apiKey: "", source: "none" };
     }
   }
   return resolveRuntimeAIConfig();
 }
-

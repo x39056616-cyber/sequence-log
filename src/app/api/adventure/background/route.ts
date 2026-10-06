@@ -48,7 +48,7 @@ export async function POST(request: Request) {
     pathwayName: parsed.data.pathwayName,
     sequenceName: parsed.data.sequenceName,
     fateAttributes: parsed.data.fateAttributes,
-  }), { limit: 12, maxChars: 700 }).catch(() => []);
+  }), { limit: 12, maxChars: 700, request }).catch(() => []);
   try {
     const draft = await generateCharacterBackground({
       fateSummary: parsed.data.fateSummary,
@@ -79,6 +79,7 @@ export async function POST(request: Request) {
     }, { status: 502 });
   }
 }
+
 
 
 

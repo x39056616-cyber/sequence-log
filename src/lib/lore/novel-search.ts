@@ -1,15 +1,15 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
+import { fetchPublicAsset } from "@/lib/lore/asset-loader";
 
 interface Paragraph { chapter: string; text: string; score: number }
+interface NovelIndex { chapters: Array<{ title: string; paras: string[] }> }
 
-let cache: { chapters: Array<{ title: string; paras: string[] }> } | null = null;
+let cache: NovelIndex | null = null;
 
-async function loadIndex() {
+async function loadIndex(request?: Request): Promise<NovelIndex | null> {
   if (cache) return cache;
-  const file = path.join(process.cwd(), "public", "lore", "novel-index.json");
-  const raw = await fs.readFile(file, "utf8");
-  cache = JSON.parse(raw) as { chapters: Array<{ title: string; paras: string[] }> };
+  const response = await fetchPublicAsset("/lore/novel-index.json", request);
+  if (!response) return null;
+  cache = await response.json() as NovelIndex;
   return cache;
 }
 
@@ -22,13 +22,16 @@ function cleanTerm(term: string) {
  * 在原文里检索与本次生成最相关的段落。
  * 评分 = 命中的不同关键词数 × 权重 + 关键词出现次数；稀有词权重更高。
  */
-export async function searchNovel(terms: string[], options: { limit?: number; maxChars?: number } = {}): Promise<Paragraph[]> {
+export async function searchNovel(
+  terms: string[],
+  options: { limit?: number; maxChars?: number; request?: Request } = {},
+): Promise<Paragraph[]> {
   const limit = options.limit ?? 10;
   const maxChars = options.maxChars ?? 700;
   const keywords = [...new Set(terms.map(cleanTerm).filter((term) => term.length >= 2))].slice(0, 12);
   if (keywords.length === 0) return [];
 
-  const index = await loadIndex().catch(() => null);
+  const index = await loadIndex(options.request).catch(() => null);
   if (!index) return [];
 
   const hits: Paragraph[] = [];
@@ -90,7 +93,5 @@ export function termsFromContext(context: Record<string, unknown>): string[] {
   if (state?.pathway) terms.push(state.pathway);
   const fate = context.fate as { attributes?: Array<{ category: string; value: string }> } | null | undefined;
   for (const attribute of fate?.attributes ?? []) terms.push(attribute.value);
-  const worldState = context.worldState as undefined;
-  void worldState;
   return terms;
 }

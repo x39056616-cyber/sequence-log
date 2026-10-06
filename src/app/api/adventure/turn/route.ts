@@ -55,7 +55,7 @@ export async function POST(request: Request) {
   const context = input.context as unknown as AIContext;
   const aiConfig = await resolveRequestAIConfig(request);
   // 检索原文段落，让每一轮叙事都有原著依据。
-  const lorePassages = await searchNovel(termsFromContext(context as unknown as Record<string, unknown>), { limit: 8, maxChars: 600 }).catch(() => []);
+  const lorePassages = await searchNovel(termsFromContext(context as unknown as Record<string, unknown>), { limit: 8, maxChars: 600, request }).catch(() => []);
   const encoder = new TextEncoder();
 
   const stream = new ReadableStream({
@@ -116,6 +116,7 @@ export async function POST(request: Request) {
 
   return new Response(stream, { headers: { "Content-Type": "text/event-stream; charset=utf-8", "Cache-Control": "no-cache, no-transform", Connection: "keep-alive" } });
 }
+
 
 
 
