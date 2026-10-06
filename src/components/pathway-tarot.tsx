@@ -46,6 +46,7 @@ export function PathwayTarot({
       height={543}
       sizes={variant === "compact" ? "64px" : "(max-width:640px) 45vw, (max-width:1280px) 22vw, 230px"}
       className="h-auto w-full"
+      unoptimized
     />
     <div className="rws-card-ink pointer-events-none absolute inset-0" aria-hidden="true" />
     {variant === "full" && <div className="pointer-events-none absolute inset-x-2 bottom-2 flex items-center justify-between rounded-sm border border-[#b9a56f]/70 bg-[#071012]/88 px-3 py-2 text-[#eadfbe] backdrop-blur-sm"><span className="text-[10px] tracking-[.22em]">{pathway.tarot}</span><span className="serif text-xs">{pathway.name}途径</span></div>}
