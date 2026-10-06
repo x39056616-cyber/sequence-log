@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // 自包含打包：产出 .next-build/standalone，可直接拷给别人运行
+  // OpenNext/Cloudflare 需要标准 .next/standalone 目录；本地仍可用 NEXT_DIST_DIR 覆盖。
   output: "standalone",
-  distDir: ".next-build",
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   typescript: { ignoreBuildErrors: true },
   experimental: { cpus: 1, workerThreads: true },
   async headers() {
@@ -22,4 +22,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
