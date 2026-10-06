@@ -13,4 +13,4 @@ if (-not $cf) {
 
 $urlFile = Join-Path $ProjectRoot 'cloudflare-url.txt'
 Write-Host "Starting Cloudflare quick tunnel for http://127.0.0.1:$Port ..." -ForegroundColor Yellow
-& $cf.Source tunnel --url ("http://127.0.0.1:" + $Port) --no-autoupdate 2>&1 | Tee-Object -FilePath $urlFile
+& $cf.Source tunnel --url ("http://127.0.0.1:" + $Port) --no-autoupdate --protocol http2 2>&1 | Tee-Object -FilePath $urlFile
