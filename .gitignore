@@ -65,3 +65,11 @@ _*.out.txt
 _bg.out.json
 _turn.out.txt
 
+
+# Cloudflare tunnel binary
+cloudflared.exe
+cloudflared-url.txt
+
+# Cloudflare OpenNext build
+/.open-next/
+/.wrangler/
