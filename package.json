@@ -10,7 +10,10 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "pages:build": "pnpm build && npx @cloudflare/next-on-pages@1",
+    "pages:preview": "npx wrangler pages dev .vercel/output/static",
+    "pages:deploy": "npx wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
