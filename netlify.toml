@@ -1,0 +1,7 @@
+# Netlify：连接 GitHub 仓库后会自动识别 Next.js，下面两项是显式声明
+[build]
+  command = "pnpm build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"

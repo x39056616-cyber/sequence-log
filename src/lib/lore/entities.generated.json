@@ -1,0 +1,5080 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T04:34:24.488034+00:00",
+  "source": {
+    "title": "《诡秘之主》精校版全本及番外",
+    "author": "爱潜水的乌贼",
+    "fileName": "《诡秘之主》（精校版全本+番外完）作者：爱潜水的乌贼.md",
+    "sha256": "74fa6c4de575ac3f54deedf055a167b1b5d10d68062f3fdb863f3f0d998a0d56",
+    "lines": 231153,
+    "chapters": 1414,
+    "note": "全文仅作本地核验，不进入仓库；本文件只保存经核验的名称、章节行号与短引文。"
+  },
+  "coverage": {
+    "figures": 45,
+    "figuresCandidates": 47,
+    "factions": 41,
+    "factionsCandidates": 42,
+    "places": 51,
+    "placesCandidates": 58,
+    "events": 56,
+    "eventsCandidates": 59,
+    "items": 53,
+    "itemsCandidates": 65,
+    "codenames": 19,
+    "codenamesCandidates": 22
+  },
+  "figures": [
+    {
+      "name": "克莱恩",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一章 绯红",
+          "line": 105,
+          "quote": "父亲是皇家陆军上士，牺牲于南大陆的殖民冲突，换来的抚恤金让克莱恩有了进入私立文法学校读书的机会，奠定了他考入大学的基础……",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "奥黛丽",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 仪式",
+          "line": 859,
+          "quote": "奥黛丽·霍尔坐在梳妆台前，摩挲着桌上花纹古老、表面有裂的铜镜。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 仪式",
+          "line": 889,
+          "quote": "一片灰白的迷雾之上，奥黛丽·霍尔恢复了视线，又惊恐又迷茫地左右打量起来，看见斜对面头部模糊、身影朦胧的男子也是差不多的动作。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿尔杰",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 仪式",
+          "line": 879,
+          "quote": "阿尔杰·威尔逊站在甲板上，身体随着颠簸而起伏，轻松保持着平衡。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 仪式",
+          "line": 883,
+          "quote": "“还差鬼鲨的血……”阿尔杰低语道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "佛尔思",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零七章 佛尔思",
+          "line": 19023,
+          "quote": "### 第一百零七章 佛尔思",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零七章 佛尔思",
+          "line": 19043,
+          "quote": "“那我肯定你对佛尔思·沃尔女士将有一个良好的印象，因为她就和暴风山庄里的茜茜女士一样，冷静，智慧，慵懒。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "伦纳德",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3163,
+          "quote": "“虽然经常会走这里，但我还是害怕，总担心摔倒，咕噜咕噜滚下去，你不知道，伦纳德就干过这种蠢事，他在成为‘不眠者’的第一天，在没完全掌握本身力量的第一天，就试图以冲刺的速度跑下去，然后，然后他就变成了车轮，哈哈，想到就好笑，嗯，就",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十一章 他乡遇故知",
+          "line": 3925,
+          "quote": "“不用，我对你印象很深刻。”那年轻值夜者伸出右手道，“伦纳德·米切尔，序列8的‘午夜诗人’。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿蒙",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10629,
+          "quote": "“那个时候，安提哥努斯、阿蒙、亚伯拉罕、雅各等古老的名字闪耀于人类的国度，但四皇之战后，图铎帝国的血皇帝陨落，他们跌下顶峰，被如今的七神所追杀。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历史里真的藏着非常多的秘密啊，也许还有非常多的真相……克莱恩看得感叹不已，深觉第四纪这段历史笼罩着浓重的雾气。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿兹克",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1657,
+          "quote": "“5月12日，阿兹克先生提到南大陆拜朗帝国的通用语也源自古弗萨克语，也就是巨人语的一个分支。为什么会这样？难道所有具备灵性的生物都曾经使用同一种语言，不，这一定是错误的，",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九章 笔记",
+          "line": 1661,
+          "quote": "“5月16日，科恩资深副教授和阿兹克先生讨论蒸汽时代的必然性，阿兹克先生认为这具备偶然性，要不是突然出现罗塞尔大帝，也许北大陆还和南大陆一样，依旧处于冷兵器时代，导师认为他太过强调个体的",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "邓恩",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十二章 再次上门",
+          "line": 2113,
+          "quote": "“我，邓恩·史密斯。”门外有沉稳的男声回答。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十二章 再次上门",
+          "line": 2115,
+          "quote": "邓恩·史密斯？不认识……克莱恩摇头下床，走向门边。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "罗塞尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 639,
+          "quote": "它并非来源于七位正统神灵，也不是古代遗留，而是在一百七十多年前，由时任因蒂斯共和国执政官的罗塞尔·古斯塔夫发明。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 641,
+          "quote": "这位罗塞尔先生发明了蒸汽机，改良了帆船，推翻了因蒂斯王国的统治，并得到“工匠之神”教会的承认，成为新共和国的首任执政官。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "莎伦",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十五章 免费？",
+          "line": 47537,
+          "quote": "“晚上好，莎伦女士。”卡斯帕斯做出同样的动作。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十五章 免费？",
+          "line": 47539,
+          "quote": "原来她的名字是莎伦……克莱恩若有所思地等待着对方开口。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "梅丽莎",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 227,
+          "quote": "嗯，头上的血污得处理一下，免得总是一幅案发现场的模样，吓到自己不要紧，要是吓到了明天得早起的妹妹梅丽莎，那事情就不好收场了！",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 307,
+          "quote": "### 第三章 梅丽莎",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "查拉图",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十九章 罗塞尔的初始",
+          "line": 10505,
+          "quote": "“这就是那位神秘的查拉图先生对我提过的‘扮演’吗？这或许是解决魔药隐患的关键。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十五章 非凡者资料",
+          "line": 11495,
+          "quote": "“这条序列途径最早成型于所罗门帝国的查拉图家族，在第四纪的纷争里，该家族并未被完全毁灭，第五纪的历史里偶尔还是能听到他们的名字……疑似与古老组织‘密修会’有一定联系。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "亚当",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百三十五章 阿蒙可能的来历",
+          "line": 77369,
+          "quote": "阿蒙，亚当……克莱恩重复着这两个姓名，觉得笼罩于第四纪和第三纪历史上空的迷雾愈发浓厚了。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百三十五章 阿蒙可能的来历",
+          "line": 77385,
+          "quote": "除他之外，“创造一切的主，全知全能的神”还有一位后裔，叫做亚当……",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "安提哥努斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1685,
+          "quote": "“6月20日，我们解读出了第一页的内容，作者是一个叫做‘安提哥努斯’的家族的成员。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九章 笔记",
+          "line": 1689,
+          "quote": "“6月22日，这个叫做‘安提哥努斯’的家族在所罗门帝国似乎有着显赫地位，笔记主人提到自己在和某个叫做图铎的人进行一项秘密交易。图铎？图铎王朝？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "班森",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 181,
+          "quote": "来以克莱恩·莫雷蒂的家庭情况，别说煤气灯，连煤油灯都不该奢望，使用蜡烛才是符合身份和地位的表现，但四年前，他熬夜读书，为霍伊大学入学考试而奋斗时，哥哥班森认为这是关系家庭未来的重要事情，哪怕借债也要为他创造良好的条件。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 183,
+          "quote": "当然，识字又工作了好几年的班森绝对不是鲁莽的、缺乏手段的、不考虑后果的人，他以“安装煤气管道有利于提高公寓的档次，有助于将来的出租”为理由忽悠得房东先生掏钱完成了基础改造，自己则借",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "戴莉",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2495,
+          "quote": "“戴莉，有结果了吗？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2507,
+          "quote": "有着妖异美感的“通灵者”戴莉，用闪烁碧绿的眼眸扫过克莱恩，望向邓恩·史密斯道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "齐林格斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百四十五章 合作的请求",
+          "line": 25523,
+          "quote": "“我收到情报，号称‘飓风中将’的大海盗齐林格斯，秘密上岸，潜入了贝克兰德，不知道想做什么，我希望你帮我找到他的下落，至于后续的事情，就不需要你冒险了。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百四十五章 合作的请求",
+          "line": 25525,
+          "quote": "“‘飓风中将’齐林格斯？七位海盗将军之一？”奥黛丽眼睛微微睁大，险些保持不住观众状态。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "洛薇雅",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十八章 “巨人”途径",
+          "line": 24511,
+          "quote": "“是的，这是我们从那些被‘黑暗之物’毁灭的城市里找到的序列途径，只到序列5‘牧羊人’，但，但洛薇雅长老非常强大，非常诡异，非常可怕，据说曾经对抗过高序列水准的恶灵且没有受伤，所以，在‘六人议事团’席位出现空缺后，她破例成为了长老。”戴里克隐有些恐惧",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零二章 确认情况",
+          "line": 35011,
+          "quote": "戴里克下意识抬头望了眼前方那位女子，白银城六人议事团的成员，“牧羊人”洛薇雅。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "艾德雯娜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十九章 交流消息",
+          "line": 50039,
+          "quote": "接着，“倒吊人”阿尔杰又介绍了疑似恶灵并非人类的“血之上将”塞尼奥尔，拥有部分海怪血脉的“深海中将”哈尔·康斯坦丁，自称“冰山中将”的艾德雯娜·爱德华兹和“黄昏中将”布拉托夫·伊万。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 招揽",
+          "line": 86267,
+          "quote": "“‘冰山中将’艾德雯娜·爱德华兹的下属，‘黄金梦想号’的第四水手长，烈焰达尼兹。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "乌洛琉斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百五十三章 吞尾者",
+          "line": 80647,
+          "quote": "“命运天使，‘吞尾者’乌洛琉斯。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 克莱恩的猜测",
+          "line": 84063,
+          "quote": "神的子嗣。”“太阳”戴里克边回忆“猎魔者”科林的话语，边缓慢说道，“他怀疑，阿蒙就是‘天使之王’里的‘时天使’，壁画上那位则是‘命运天使’，‘吞尾者’乌洛琉斯。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "天尊",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 293,
+          "quote": "站到房间中央，用四步逆时针走出一个正方形，第一步诚心默念“福生玄黄仙尊”，第二步默念“福生玄黄天君”，第三步默念“福生玄黄上帝”，第四步默念“福生玄黄天尊”，走完之后，闭上眼睛，原地等待五分钟，仪式就算成功。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 仪式",
+          "line": 805,
+          "quote": "“福生玄黄天尊。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "因斯·赞格威尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3513,
+          "quote": "“因斯·赞格威尔，男，四十岁，前大主教，晋升失败的‘看门人’，被魔鬼引诱，堕落成恶，带着封印物‘0-08’潜逃，具体特征是……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3515,
+          "quote": "根据照片，结合描述，因斯·赞格威尔穿着双排扣的纯黑神职人员长袍，头戴一顶软帽，发色呈暗金，瞳孔蓝到形同深黑，他鼻梁高挺，嘴唇紧抿，五官像是古典雕塑，没丝毫皱纹，最引人瞩目的标志是瞎了一",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "格罗塞尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九十四章 “冰山中将”的收藏室",
+          "line": 99491,
+          "quote": "《格罗塞尔游记》",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十四章 “冰山中将”的收藏室",
+          "line": 99493,
+          "quote": "“这来自于一艘海底沉船，浸泡了165年，依旧没有损坏。”艾德雯娜介绍道，“它里面记载了一个故事，一位叫做格罗塞尔的巨人决定去冰霜之国猎杀‘北方之王’，一头强大的冰霜巨龙，途中，他遇到了一个个同伴，有女性精灵，有虔诚的苦修士，有所罗门帝国贵族，有鲁恩的士兵，故事刚",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "嘉德丽雅",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十九章 交流消息",
+          "line": 50033,
+          "quote": "“‘星之上将’嘉德丽雅曾经追随过‘神秘女王’，但双方在很久之前就近乎决裂，对于这件事情的原因，海上的传言是，她加入了某个隐秘组织，惹怒了‘神秘女王’，而根据我收到的消息，这",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八十一章 星之上将",
+          "line": 50391,
+          "quote": "“‘星之上将’嘉德丽雅……”阿尔杰轻轻颔首，无声自语。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "贝尔纳黛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十一章 五人聚会",
+          "line": 45407,
+          "quote": "“我的长女贝尔纳黛是幸运的，我和她的母亲当时都只是低序列的非凡者，她可以自由地选择她想走的道路。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十一章 五人聚会",
+          "line": 45411,
+          "quote": "“我的次子博诺瓦是介于贝尔纳黛和夏尔之间的，我给予了他相当于序列5非凡者的特性，这让我减轻了负担，能更快地消化魔药，加速晋升，而刚出生的他已经是能展现各种特异的‘星术师’。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿罗德斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十八章 问答“游戏”",
+          "line": 60245,
+          "quote": "“尊敬的阿罗德斯，我的问题是，刚才发生在这个地方的事情，有哪些参与者？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零三章 正正得负",
+          "line": 71771,
+          "quote": "“尊敬的阿罗德斯，我的问题是，之前坐在这里的恶魔长什么样子？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "帕列斯·索罗亚斯德",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十八章 小孩就要有小孩的样子",
+          "line": 130519,
+          "quote": "“你从帕列斯·索罗亚斯德那里得到的‘时之虫’？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十八章 小孩就要有小孩的样子",
+          "line": 130527,
+          "quote": "“帕列斯·索罗亚斯德的状态不是太对，寄生在你的前同事身上，啊对，你的前同事在调查夏洛克·莫里亚蒂的事情，半夜进了我家。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "威尔·昂赛汀",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百一十三章 “专业”的建议",
+          "line": 55925,
+          "quote": "“他叫威尔·昂赛汀，至于住在哪里，我就不记得了。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百二十七章 过去",
+          "line": 58215,
+          "quote": "“你后来还见过威尔·昂赛汀吗？就是那个被锯断了一条腿，说你运气会变差的孩子。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "蕾妮特·缇尼科尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十九章 “招聘会”",
+          "line": 97149,
+          "quote": "“蕾妮特·缇尼科尔。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十五章 克莱恩的方案",
+          "line": 102861,
+          "quote": "此时，蕾妮特·缇尼科尔的另一个脑袋也咬住了祭坛上的金币。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "马里奇",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十章 人不可貌相",
+          "line": 40299,
+          "quote": "“马里奇是我认识的人里面最可怕的一个，他甚至不害怕子弹，既然他都认为任务困难，我想我没办法再帮你联络别的厉害家伙。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十章 人不可貌相",
+          "line": 40315,
+          "quote": "我是不是太诚实了？如果将委托描述得简单一点，刚才的马里奇应该就同意了……就是不知道他会索要多少报酬……哎，让别人在被隐瞒的情况下帮我直面危险，这不是我的风格……作为一个非凡者，如果总是违背内心的真实想法和自",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "伊丽娅",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十三章 两封信",
+          "line": 147941,
+          "quote": "“另外，负责南大陆的高级执事，‘女神之眼’伊丽娅阁下和当地的值夜者，也会提供帮助，给予我们相应的封印物，并做提前的调查。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十七章 真实魂体",
+          "line": 154397,
+          "quote": "这是一位序列4的半神，所以红手套小队不仅动用了“1”级封印物，还请了“女神之眼”伊丽娅出手，结果扑了个空。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "埃姆林·怀特",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零三章 不做没准备的表演",
+          "line": 54203,
+          "quote": "“记住，我叫埃姆林·怀特，记住，我叫埃姆林·怀特！”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百二十四章 寻人",
+          "line": 57807,
+          "quote": "“对了，他叫……”斯图亚特回想了下道，“埃姆林·怀特。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "卡特琳娜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零六章 旧相识",
+          "line": 101481,
+          "quote": "“卡特琳娜·佩莱？",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零六章 旧相识",
+          "line": 101495,
+          "quote": "阿兹克先生是拜朗帝国的“死亡执政官”……这是“死神”途径后面魔药的名称？这位“不老魔女”卡特琳娜·佩莱看起来也就三十上下，端庄圣洁又成熟风韵……等等，我为什么要想这些，她“欢愉”的魅惑能力已经到了这种程度？克莱恩忙移开视线，险些靠冥想来平复情绪。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "弗兰克·李",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十六章 毒素专家",
+          "line": 109519,
+          "quote": "“‘未来号’的大副，弗兰克·李。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十六章 毒素专家",
+          "line": 109523,
+          "quote": "弗兰克·李，赏金7000镑的“毒素专家”……克莱恩一下认出了对方。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "安德森·胡德",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百六十九章 再遇",
+          "line": 111735,
+          "quote": "“安德森·胡德……”“星之上将”突然吐出一个名字，抬手拦住了已掏出一把符咒的格尔曼·斯帕罗。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百七十章 美人鱼的线索",
+          "line": 111767,
+          "quote": "也就是说，安德森·胡德在梦境世界里的自我陈述是真实可靠的，他更多是一名宝藏猎人！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "达尼兹",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 招揽",
+          "line": 86267,
+          "quote": "“‘冰山中将’艾德雯娜·爱德华兹的下属，‘黄金梦想号’的第四水手长，烈焰达尼兹。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 招揽",
+          "line": 86269,
+          "quote": "报出绰号、真名和身份来历后，达尼兹耐心等待起对方出现惊慌和畏惧的表情。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "艾弥留斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十八章 替身任务",
+          "line": 106787,
+          "quote": "“艾弥留斯·利维特上将阁下！",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十九章 总督府晚宴",
+          "line": 106793,
+          "quote": "艾弥留斯·利维特上将……真正的半神……听到比尔特的说明，克莱恩脑海内瞬间冒出了两个单词：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "特莉丝",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百二十二章 目标建筑",
+          "line": 21845,
+          "quote": "温文甜美的特莉丝表情立刻变沉，站了起来，走到窗旁，沉默着望向外面。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百二十三章 超凡战",
+          "line": 21853,
+          "quote": "五官单看都不算精致，但组合起来却异常美貌的特莉丝收回视线，快步走到衣帽架旁，取下了一件戴兜帽的黑色长袍。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "科塔尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十八章 厚颜",
+          "line": 195595,
+          "quote": "那是关于乌黯魔狼科塔尔的信息。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四十三章 向东",
+          "line": 196255,
+          "quote": "这里曾经躲藏着不少在大灾变中幸存的人类，后来被乌黯魔狼科塔尔变成了祂的秘偶。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "老尼尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3441,
+          "quote": "会计，一个负责购买必需物品，领取教会和警察部门下发物资，兼职车夫的人员，他们都是专业人士，不需要轮换，每周周日休息，剩下的三位文职者，是罗珊，布莱特和老尼尔，他们的工作有：接待来访人员，清理房间，书写案件文档和物品申报清单，以及看守武器、材料和文献库，严格进行出入和领取归还登记，每人每周各自轮休一天",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3473,
+          "quote": "“第二，你每周轮休一天，暂时可以自己确定是哪一天，不在外面的时候，就去武器库，阅读我们保存的文献和典籍，这是历史专业人士的工作，等全部看完，就要和老尼尔他们轮换了。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "路易斯·维恩",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百六十四章 莱曼诺的魔法书",
+          "line": 110863,
+          "quote": "要想这件事情，你比他弱太多，他背叛我们的时候，已经是‘记录官’，现在甚至可能成为‘旅行家’。”多里安郑重说道，“不过，你确实需要记住他，以避开他，他叫路易斯·维恩，我等下把他的样子画下来。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十七章 杀人请求",
+          "line": 116169,
+          "quote": "考虑之后，她将目标瞄准了曾经对老师家族造成过严重伤害的那位极光会神使，也许是“记录官”，也许是“旅行家”的路易斯·维恩！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "海柔尔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十七章 第一支舞",
+          "line": 128775,
+          "quote": "“我女儿，海柔尔。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十七章 第一支舞",
+          "line": 128783,
+          "quote": "他向阿罗德斯询问哪里能弄到可以窃取别人非凡能力的神奇物品时，“魔镜”展示的场景里有一幕是徘徊于下水道的高傲少女，而这正是海柔尔·马赫特，一位有着墨绿波浪长发和深棕明亮眼眸的小姐！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "塔利姆",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十二章 确认",
+          "line": 42217,
+          "quote": "一位是知名外科医生艾伦·克瑞斯，一位是贵族的马术教师塔利姆·杜蒙特。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十二章 确认",
+          "line": 42219,
+          "quote": "彼此问好后，戴着金边眼镜，个子瘦高，较为冷淡的医生艾伦当先进入俱乐部，而留着棕色短卷发的马术教师塔利姆则边走边笑道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "卡西米",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百四十五章 一位古老的血族",
+          "line": 79295,
+          "quote": "就在这时，今晚宴会的主人，卡西米·奥德拉端着酒杯走了过来，微笑问道：",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百四十五章 一位古老的血族",
+          "line": 79301,
+          "quote": "仅从外表看，卡西米·奥德拉是个很有气质的中年绅士，但埃姆林知道，他已经超过了两百岁，曾经在因蒂斯见证过罗塞尔大帝统治下的因蒂斯，后来因“活”得太久，怕被邻居们发现不对，",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "欧内斯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十三章 公爵",
+          "line": 160809,
+          "quote": "他正是之前向埃姆林提供德莱尔森林中央废弃古堡情报的血族，叫做欧内斯·博雅尔，是一位子爵。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十三章 公爵",
+          "line": 160815,
+          "quote": "“怎么？你的顾客告诉你，那里没有古老怨灵？”欧内斯·博雅尔将目光从画册上移开，瞥了埃姆林一眼。",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "name": "风暴教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十五章 非凡者资料",
+          "line": 11525,
+          "quote": "这也从另一方面表明，“倒吊人”不是“代罚者”成员，就是被风暴教会暗中吸纳的海盗。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百七十章 铜哨",
+          "line": 29717,
+          "quote": "阿尔杰·威尔逊身穿风暴教会的牧师长袍，缓步走下了客轮。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黑夜教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10631,
+          "quote": "“具体的过程，我并不清楚，只知道安提哥努斯家族最终覆灭于了黑夜教会手中，愚者先生，您如果想知道更多，恐怕只能从黑夜教会那里得到了，或者接触那几个古老的隐秘组织，你知道我指的是哪几个。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十二章 重视",
+          "line": 33205,
+          "quote": "“我立刻安排下去，并联络黑夜教会和蒸汽教会。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黑夜女神教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 333,
+          "quote": "梅丽莎和班森、克莱恩不一样，启蒙教育不是在黑夜女神教会的周日学校完成的，她到读书年纪的时候，鲁恩王国颁布了《初等教育法》，建立中低等教育委员会，并专门提供拨款，加大了投入。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六章 非凡者",
+          "line": 991,
+          "quote": "“想成为非凡者，就加入黑夜女神教会，风暴之主教会，或蒸汽与机械之神教会。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "大地母神教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16823,
+          "quote": "“我们从摩斯苦修会开始吧，它是最早的隐秘组织，当然，有不少人认为，最早的隐秘组织应该是黑夜女神教会、大地母神教会和战神教会。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十四章 可怜虫",
+          "line": 28567,
+          "quote": "“我会用‘生命炼成’的方式，为她准备一具不会衰老的身体，邓恩，或许你不知道，大地母神教会的序列4就擅长‘生命炼成’，‘通识者’途径的对应序列也勉强可以办到，嗯，我将借助神灵的恩赐来完成。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "永恒烈阳教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 651,
+          "quote": "可惜的是，他年老之后，遭遇背叛，于第五纪1198年被永恒烈阳教会、原因蒂斯王族索伦家族和其他贵族联手刺杀，陨落于白枫宫。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16825,
+          "quote": "“这些人肯定是风暴之主教会、永恒烈阳教会或者知识与智慧之神教会的成员。”奥黛丽闷闷地反驳了一句。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "战神教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16823,
+          "quote": "“我们从摩斯苦修会开始吧，它是最早的隐秘组织，当然，有不少人认为，最早的隐秘组织应该是黑夜女神教会、大地母神教会和战神教会。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十八章 “巨人”途径",
+          "line": 24495,
+          "quote": "嗯，超凡战士，角斗士，武器大师……有点耳熟啊……对了，战神教会掌握的完整序列和这个很像！序列9“战士”，序列8“格斗家”，序列7“武器大师”！因保密权限的问题，克莱恩只知道战神教会完整序列的前面三个配方的名称，但",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "蒸汽与机械之神教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 335,
+          "quote": "不过三年，在收编了不少教会学校的前提下，众多的公立初等学校建立了起来，严格保持宗教中立性原则，不牵涉风暴之主、黑夜女神和蒸汽与机械之神教会的纷争。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六章 非凡者",
+          "line": 991,
+          "quote": "“想成为非凡者，就加入黑夜女神教会，风暴之主教会，或蒸汽与机械之神教会。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "玫瑰学派",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11621,
+          "quote": "或少与第四纪那些可怕的家族和教派有些联系，比如“灵知会”，比如信奉死亡的“灵教团”，比如以师徒传承为主的“生命学派”和以血腥祭祀在非凡者圈子里闻名的“玫瑰学派”等。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16885,
+          "quote": "“二、信仰死亡的灵教团，喜欢血腥祭祀的玫瑰学派，都发源于南大陆，在殖民时代到来后，被七神教会打击得近乎灭亡，但也因此传播到了北大陆。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "生命学派",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11621,
+          "quote": "纪，也就是本纪元初期诞生的隐秘组织，它们或多或少与第四纪那些可怕的家族和教派有些联系，比如“灵知会”，比如信奉死亡的“灵教团”，比如以师徒传承为主的“生命学派”和以血腥祭祀在非凡者圈子里闻名的“玫瑰学派”等。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十八章 “怪物”",
+          "line": 12041,
+          "quote": "“他适合的序列9叫做‘怪物’，他的绰号就是从这里来的，可惜的是，这个序列途径只有生命学派才掌握了起始。”老尼尔低声回答道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "塔罗会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1179,
+          "quote": "“好的，那我们就算是塔罗会的创始成员了！”奥黛丽先是开心脱口，接着有点怯怯地看向被灰白雾气笼罩的周明瑞，“没问题吧，愚者先生？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十六章 一个简单的问题",
+          "line": 6501,
+          "quote": "他之所以提前结束“塔罗会”的碰面，是因为知道了“值夜者”对安提哥努斯家族笔记的真实态度，决定等下得做出认真寻找的样子，而不是直接躺倒睡觉，那会被邓恩·史密斯他们怀疑自己在家里",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "值夜者",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1001,
+          "quote": "“先生，你说的我都知道，甚至知道更多，比如值夜者，比如代罚者，比如机械之心，但是，我不想失去自由。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2273,
+          "quote": "### 第十三章 值夜者",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "机械之心",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1001,
+          "quote": "“先生，你说的我都知道，甚至知道更多，比如值夜者，比如代罚者，比如机械之心，但是，我不想失去自由。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2673,
+          "quote": "“第二嘛……”邓恩抓住扶手，登上马车道，“我们，代罚者，机械之心，以及其他类似的审判机关，每年处理的事件里，有四分之一是非凡者的失控。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "心理炼金会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2609,
+          "quote": "“你怎么用了心理炼金会那帮邪恶疯子的理论？”邓恩微皱眉头，看向戴莉。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 2931,
+          "quote": "当然，也可以去找邓恩口中吐露的“心理炼金会”这种被各大教会压制围杀的组织去加入，可成为他们的一员，同样会失去自由，甚至时刻得担惊受怕，更重要的一个问题是，自己根本不知道去哪里找他们，即使从“倒",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "摩斯苦修会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十八章 密修会",
+          "line": 5157,
+          "quote": "“我们的‘窥秘人’魔药配方和不连接的部分后续是从‘摩斯苦修会’得到的，那时候，他们据说还没有堕落，还坚持着道德和戒律，坚持着对知识的追求，并严格守秘，凡是入会者，在成为‘窥秘人’后，都要禁语五年，学会静默，以便",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十一章 接地气的仪式魔法",
+          "line": 9113,
+          "quote": "“虽然这句格言最早是从一个隐秘的、邪恶的组织‘摩斯苦修会’内部传出来的，但选择‘窥秘人’道路的非凡者都用自己的经验证明了它的正确，只要严格遵守，并充满敬畏，失控的风险就会降到最低，相反的推论同样成立。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "极光会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十三章 倾听者",
+          "line": 9487,
+          "quote": "“追捕一位极光会的‘倾听者’。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10699,
+          "quote": "阿尔杰想了下，没提“极光会”和“倾听者”的事情，同样摇头道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "密修会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十八章 密修会",
+          "line": 5031,
+          "quote": "### 第二十八章 密修会",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十八章 密修会",
+          "line": 5125,
+          "quote": "“一个叫做‘密修会’的古老组织，他们建立于第四纪，和所罗门帝国，和当时部分堕落贵族有关，呵，安提哥努斯家族的笔记正是来源于他们，因为一位成员的疏忽，才进入古物市场，被韦",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黑荆棘安保公司",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 3097,
+          "quote": "“黑荆棘安保公司。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3247,
+          "quote": "“我真没想到你们会用‘黑荆棘安保公司’来遮掩。”他随口笑道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "鲁恩王国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 201,
+          "quote": "周明瑞知道这是鲁恩王国最基础的货币，叫做铜便士，1便士实际购买力大概相当于自己穿越前的三四块钱，这种硬币的币值还有5便士、半便士和四分之一便士三种，但依旧不够精细，在日常生",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "安提哥努斯家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2337,
+          "quote": "“毕竟你关系着那本安提哥努斯家族笔记的下落。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3455,
+          "quote": "“确认你真的遗失记忆后，韦尔奇和娜娅的案子就算完结了，同样的，那本安提哥努斯家族的日记也彻底失踪了，我们怀疑你当时有带着它离开，在回家的途中将它隐藏，所以我们才没有在你家里找到什么线索，这应该也就是你为什么不是在现场，而是在家里‘",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "亚伯拉罕家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11591,
+          "quote": "“灵知会是如何建立起来的并不为人知晓，只能通过两种序列途径来分析他们可能的源头，一、‘学徒’、‘戏法大师’，这很容易让人联想到第四纪图铎王朝的亚伯拉罕家族，不排除与亚伯拉罕家族长期联姻的塔玛拉家族这个可能，二、‘刺客’和‘教唆者’，指向魔女教派。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "因蒂斯共和国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 639,
+          "quote": "它并非来源于七位正统神灵，也不是古代遗留，而是在一百七十多年前，由时任因蒂斯共和国执政官的罗塞尔·古斯塔夫发明。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十七章 梳理和总结",
+          "line": 10219,
+          "quote": "“霍纳奇斯是横跨鲁恩王国和因蒂斯共和国的山脉，它的主峰高达六千米以上。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "弗萨克帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 643,
+          "quote": "后来，他南征北战，将伦堡等国纳入保护，让鲁恩王国、费内波特、弗萨克帝国等北大陆强国相继低头，接着将共和国再次改为帝国，自称“凯撒大帝”。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十六章 海上大逃杀",
+          "line": 10107,
+          "quote": "鲁恩王国是多信仰的国度，不像北边的弗萨克帝国只服从战神，也不像南方的费内波特王国唯尊崇大地母神，风暴之主、黑夜女神、蒸汽与机械之神这三大教会的教众难免会有些观点和习惯上的冲突，只是千百年磨合下来",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "所罗门帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 仪式",
+          "line": 871,
+          "quote": "“爸爸果然在欺骗我，每次都给我讲这面镜子是古代所罗门帝国黑皇帝的珍宝，是非凡物品……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九章 笔记",
+          "line": 1669,
+          "quote": "多缺失，就连出土的陵寝、古城和文献都少之又少，历史学家和考古学家们只能借助于七大教会含糊不清、以信仰教育为主的神学典籍才能勉强拼凑出一点“原貌”，知道所罗门帝国、图铎王朝、特伦索斯特帝国的存在。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "图铎帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10627,
+          "quote": "“在第四纪的所罗门王朝时期，安提哥努斯家族虽然也是显赫的贵族，但并没有留下让人印象深刻的事迹，直到他们支持图铎帝国建立，才真正地站到了北大陆舞台的中央。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10629,
+          "quote": "“那个时候，安提哥努斯、阿蒙、亚伯拉罕、雅各等古老的名字闪耀于人类的国度，但四皇之战后，图铎帝国的血皇帝陨落，他们跌下顶峰，被如今的七神所追杀。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "特伦索斯特帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1669,
+          "quote": "、古城和文献都少之又少，历史学家和考古学家们只能借助于七大教会含糊不清、以信仰教育为主的神学典籍才能勉强拼凑出一点“原貌”，知道所罗门帝国、图铎王朝、特伦索斯特帝国的存在。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历史里真的藏着非常多的秘密啊，也许还有非常多的真相……克莱恩看得感叹不已，深觉第四纪这段历史",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "拜朗帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1657,
+          "quote": "“5月12日，阿兹克先生提到南大陆拜朗帝国的通用语也源自古弗萨克语，也就是巨人语的一个分支。为什么会这样？难道所有具备灵性的生物都曾经使用同一种语言，不，这一定是错误的，哪怕在《夜之启示录》和",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十一章 倒立的陵寝",
+          "line": 28107,
+          "quote": "“那是南大陆的‘倒金字塔’，意味着从人间进入冥界，而无论在曾经的拜朗帝国，还是它的分支高地王国等地方，只有所谓的死神后裔才能为自己修建这样的陵寝。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "索罗亚斯德家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百二十七章 天使家族",
+          "line": 76079,
+          "quote": "“‘天使家族’，仅是这个名字就能说明很多问题，真是让人向往啊！‘门’先生说，第四纪的天使家族并不止这五个，还有一直忠诚于所罗门帝国的查拉图和索罗亚斯德家族，特伦索斯特王朝的奥古斯都、索伦、艾因霍恩、卡斯蒂亚家族，隐秘活动的安德雷拉德、贝利亚家族，以及比天使家族更进一步的，源于真神的，魔女家族。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十四章 线索",
+          "line": 102763,
+          "quote": "“……窃取别人非凡能力的途径是‘偷盗者’途径，在第四纪的时候，它属于阿蒙家族、索罗亚斯德家族和雅各家族……‘四皇之战’后，他们已很少再出现，据说部分人员有结成联盟，自诩为命运的隐士。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿蒙家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历史里真的藏着非常多的秘密啊，也许还有非常多的真相……克莱恩看得感叹不已，深觉第四纪这段历史笼罩着浓重的雾气。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百四十六章 渎神者",
+          "line": 61741,
+          "quote": "“其中，阿蒙家族最为神秘，留下的历史最少，似乎是被什么力量给扭曲了，掩盖了。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "塔玛拉家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11591,
+          "quote": "，只能通过两种序列途径来分析他们可能的源头，一、‘学徒’、‘戏法大师’，这很容易让人联想到第四纪图铎王朝的亚伯拉罕家族，不排除与亚伯拉罕家族长期联姻的塔玛拉家族这个可能，二、‘刺客’和‘教唆者’，指向魔女教派。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历史里真的藏着",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "雅各家族",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11593,
+          "quote": "亚伯拉罕家族、塔玛拉家族、安提哥努斯家族、查拉图家族、所罗门帝国黑皇帝、图铎王朝血皇帝、特伦索斯特帝国，以及“倒吊人”提过的雅各家族和阿蒙家族……第四纪被埋葬的历史里真的藏着非常多的秘密啊，也许还有非常多的真相……克莱恩看得感叹不已，深觉第四纪这段历史笼罩着浓重的雾气。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十四章 线索",
+          "line": 102763,
+          "quote": "“……窃取别人非凡能力的途径是‘偷盗者’途径，在第四纪的时候，它属于阿蒙家族、索罗亚斯德家族和雅各家族……‘四皇之战’后，他们已很少再出现，据说部分人员有结成联盟，自诩为命运的隐士。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "军情九处",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十九章 贝克朗",
+          "line": 41721,
+          "quote": "据奥黛丽了解，康斯从廷根大学毕业后，就进入了军情九处，变得神神秘秘。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十四章 事情的原委",
+          "line": 42415,
+          "quote": "“我刚从军情九处出来。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "警察厅",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3253,
+          "quote": "“鲁恩王国阿霍瓦郡警察厅特殊行动部第七小组。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十一章 他乡遇故知",
+          "line": 3895,
+          "quote": "牛皮枪袋触感扎实，带子有扣，旁边半个手掌大小的徽章以铁色为底，有镶银的“阿霍瓦郡警察厅”“特殊行动部第七小组”文字，它们绕成接近封闭的两圈，环绕着“双剑交叉簇拥王冠”的标志。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "皇家海军",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1447,
+          "quote": "普利兹港，橡树岛，皇家海军基地。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1513,
+          "quote": "从海军大臣，皇家海军总司令开始，这个名字依次传开，最终来到铁甲舰上，由军官和士兵们齐声欢呼：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "鲁恩军方",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十七章 深夜的行动",
+          "line": 93365,
+          "quote": "这意味着什么？这代表着什么？两人不敢深想，仿佛回到了当初，那个时候，反抗军的一个隐秘据点被鲁恩军方发现，毫无征兆地遭遇了扫荡，两人的父辈全部死在了那场屠杀里，女性亲属被掳走，贩卖到了不同的地方，在收到噩耗前，卡拉特和埃德蒙顿的心情就像此时一样，沉淀",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十六章 “劫持”",
+          "line": 99715,
+          "quote": "其实，进入因蒂斯领事馆后，她在逃离大海之外又多了个选项，那就是和风暴教会、鲁恩军方、领事馆部分间谍合作，以自身为诱饵，抓捕“疾病中将”特雷茜。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "因蒂斯军方",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第二百零六章 落笔",
+          "line": 155669,
+          "quote": "“对对对，波浪！”辛迪松了口气，转而描述道，“另外，因斯·赞格威尔有杀死几位因蒂斯军方的间谍，并且还购买了多份非凡材料，不知道他想做什么。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "铁血十字会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11623,
+          "quote": "三是近一两百年内才出现的新生组织，有“极光会”，“铁血十字会”，“要素黎明”，和克莱恩最早听说过的“心理炼金会”。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百章 欢愉魔女",
+          "line": 34489,
+          "quote": "三是弗萨克帝国统治者艾因霍恩家族，因蒂斯共和国前王室索伦家族，以及最近两三百年才出现的隐秘组织“铁血十字会”同时掌握着的“猎人”途径，克莱恩认为它的可能相当高。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黄昏隐士会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百一十四章 时代的选择",
+          "line": 73799,
+          "quote": "“黄昏隐士会。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百一十五章 背锅者",
+          "line": 73925,
+          "quote": "“黄昏隐士会……听起来很有逼格啊……”返回现实世界的克莱恩起身按了下抽水马桶的机械按钮。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "救赎蔷薇",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百四十四章 恶灵提供的消息",
+          "line": 79015,
+          "quote": "“很正常，他们总是喜欢躲在阴影里，他们是被污染的天使，他们建立过一个极端隐秘的组织。”恶灵语带轻蔑地笑道，“那个组织叫做‘救赎蔷薇’。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百四十四章 恶灵提供的消息",
+          "line": 79023,
+          "quote": "“你知道‘救赎蔷薇’？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "知识与智慧之神教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16825,
+          "quote": "“这些人肯定是风暴之主教会、永恒烈阳教会或者知识与智慧之神教会的成员。”奥黛丽闷闷地反驳了一句。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十四章 隐匿贤者",
+          "line": 16833,
+          "quote": "“这些真相早就埋葬在了那古老的历史里，唯一可以肯定的是，从来没有谁说过，风暴之主教会、永恒烈阳教会、知识与智慧之神教会曾经是隐秘组织。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "蒸汽教会",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百九十二章 重视",
+          "line": 33205,
+          "quote": "“我立刻安排下去，并联络黑夜教会和蒸汽教会。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零三章 不做没准备的表演",
+          "line": 54267,
+          "quote": "“嗯，我找人和蒸汽教会那边协调一下，正式展览结束后，专门为你和你的朋友多开半天，这样一来，你就可以安静地不受打扰地参观了。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "拜朗王国",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第一百一十九章 漫游星空者",
+          "line": 176199,
+          "quote": "“也正是为了平衡，皇帝陛下没有进攻南大陆，任由死神统一了丰收平原和远古森林，建立了拜朗王国。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "name": "廷根市",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 239,
+          "quote": "挥舞手杖，击打盥洗室之门，大声嚷嚷“该死的小偷！”“浪费是可耻的事情！”“我记住你了！”“再让我看见一次，就带上你肮脏的行李滚出去！”“相信我，这是全廷根市最划算的公寓，你再也找不到比我更慷慨的房东了！”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "贝克兰德",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 321,
+          "quote": "“鲁恩王国的大学有毕业生不直接留校的传统……导师给了一份廷根大学，一份贝克兰德大学的推荐信……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 583,
+          "quote": "然而，这一切的前提是能通过廷根大学或贝克兰德大学的面试。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "拜亚姆",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十六章 各自的“聚会”",
+          "line": 41171,
+          "quote": "罗思德群岛的首府，“慷慨之城”拜亚姆。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十三章 “世界”的委托",
+          "line": 45601,
+          "quote": "——就算阿尔杰在罗思德群岛的首府，“慷慨之城”拜亚姆，也未必能及时知道，因为有线电报可以传递的消息有限，不是特别紧急特别重要的内容，总是会延迟几天才拍发，某些时候，罗思德群岛的殖民者们甚至要一两个月才可",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "普利兹港",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1107,
+          "quote": "“如果你能拿到鬼鲨血，那就找人送去普利兹港白玫瑰区鹈鹕街的‘勇士与海’酒吧，告诉老板威廉姆斯，这是‘船长’要的东西。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1447,
+          "quote": "普利兹港，橡树岛，皇家海军基地。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "康斯顿",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1677,
+          "quote": "比如韦尔奇·麦格文就是鲁恩王国间海郡康斯顿城一名银行家的儿子，为人豪爽，出手阔绰，因为长期和克莱恩、娜娅分在一个小组做作业做报告，所以习惯性请他们帮忙。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十章 常态",
+          "line": 1781,
+          "quote": "“如果你们是指霍伊大学的毕业生，来自康斯顿的韦尔奇·麦格文，那我确定认识，我们是同学，跟随同一位导师，昆汀·科恩资深副教授。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "白银城",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十七章 白银之城",
+          "line": 24403,
+          "quote": "依照对方刚才的描述，他有一定把握白银城就在所谓的神弃之地。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十七章 白银之城",
+          "line": 24413,
+          "quote": "而序列这个单词诞生于第一块亵渎石板出世之后，也就是第二纪黑暗纪元的尾声……换句话说就是，如果白银城真在“神弃之地”，那表明这片地域至少是在第二纪尾声才与南北大陆分隔……",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "迷雾海",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十九章 罗塞尔的初始",
+          "line": 10467,
+          "quote": "“四月八号，我站在‘黑王座号’的船头，张开双臂，对格林和爱德华兹他们说：‘想要我的财宝吗？那就到迷雾海的尽头来寻找吧，我将所有的财宝都藏在了这里！’他们完全不懂我的幽默，竟然问我是不是真的有额外的财宝，真是无趣啊，你们这样是做不了我的天启四骑士的！”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十九章 罗塞尔的初始",
+          "line": 10473,
+          "quote": "出生于因蒂斯王国的罗塞尔大帝什么时候远航过？迷雾海应该就是因蒂斯共和国西边的那片海洋……嗯，得去图书馆找些历史资料来对照了……克莱恩飞快看完一页，将目光投向了后面。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "南大陆",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 105,
+          "quote": "父亲是皇家陆军上士，牺牲于南大陆的殖民冲突，换来的抚恤金让克莱恩有了进入私立文法学校读书的机会，奠定了他考入大学的基础……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 345,
+          "quote": "而与此同时，班森供职的进出口公司受南大陆局势的影响，无论利润，还是业务量，都大幅度缩水，不得不裁员超过三分之一，班森为了保住工作，维持生活，只能接受更加繁重的任务，必须经常加班，或是前往环境",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "苏尼亚岛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10673,
+          "quote": "“知道，他沉在苏尼亚岛附近，我亲手沉下去的。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十五章 墓志铭",
+          "line": 28723,
+          "quote": "“需要的材料包括：精灵之泉（苏尼亚岛金色泉）的泉水100毫升，星水晶50克，黄金半磅，燃素5克，赤铁矿30克……以及大量的活人鲜血。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "罗思德群岛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十四章 教唆者",
+          "line": 11369,
+          "quote": "“我们即将抵达罗思德群岛，会在那里停留一天。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十四章 教唆者",
+          "line": 11377,
+          "quote": "而罗思德群岛是苏尼亚海上有名的殖民点，商业发达，各种行业都有。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "班西港",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十三章 价值3000镑的仆人",
+          "line": 87363,
+          "quote": "“今晚停靠班西港。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十三章 价值3000镑的仆人",
+          "line": 87369,
+          "quote": "而从普利兹港到拜亚姆有更快速的航行方式，那就是中途只停留一次，在距离达米尔港120海里的班西港。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "狂暴海",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十四章 第一位求卜者",
+          "line": 9791,
+          "quote": "未婚夫的状况，他为了一桩生意，三月份去了南大陆，上个月三号的时候，发电报给我和他的家人，说即将起航返回，可是，二十天过去，他依旧没有归来，我最初以为是狂暴海的天气原因，但到今天，一个多月过去了，他乘坐的那艘‘苜蓿号’还是没有抵达恩马特港。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十四章 第一位求卜者",
+          "line": 9793,
+          "quote": "分隔北大陆和南大陆的海洋叫做狂暴海，以天灾众多、险流无数闻名，要不是罗塞尔大帝派人探索出了几条相对安全的航道，北大陆诸国直到今天都未必能开启殖民时代，更别说铺设海底电缆，完成有线电报的",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "混沌海",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百九十章 古老年代里的传闻",
+          "line": 187133,
+          "quote": "有具体记载，可惜，我没有看过。”镜子表面，一行行单词相继浮现，但却褪去了淡金，重显银色，“古神们怀疑地底污染的源头就来自类似‘源堡’的地方，称呼它为‘混沌海’，还有，传闻卡尔德隆这座灵界城市的深处，有隐藏着‘永暗之河’的线索，这来自远古死神，不死鸟始祖格蕾嘉莉，至于其他的，我就听过一些名字，并且不够",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十章 古老年代里的传闻",
+          "line": 187135,
+          "quote": "“一共八个，‘混沌海’、‘永暗之河’、‘知识荒野’、‘暗影世界’、‘母巢’……‘母巢’与月亮有关，听起来就很危险……不知道和‘欲望母树’有没有关系……”克莱恩无声重复了一",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "皇后区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 仪式",
+          "line": 857,
+          "quote": "鲁恩王国首都贝克兰德，皇后区，一栋豪华的别墅内。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1369,
+          "quote": "鲁恩王国首都贝克兰德，皇后区。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "乔伍德区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27413,
+          "quote": "“目标对风有偏执的喜爱……那么，在‘尘埃之都’贝克兰德，他肯定不会挑选污染严重的区域长期居住，也就是说，他可能住在皇后区，西区，希尔斯顿区，乔伍德区，或者北区郊外……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27423,
+          "quote": "“综上所述，我们可以勾勒出目标的活动范围，他居住在离贝克兰德桥区域不远的地方，考虑西区和乔伍德区的塔索克河两岸……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "希尔斯顿区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27387,
+          "quote": "贝克兰德，希尔斯顿区，一栋略显阴暗昏沉的房屋内。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27413,
+          "quote": "“目标对风有偏执的喜爱……那么，在‘尘埃之都’贝克兰德，他肯定不会挑选污染严重的区域长期居住，也就是说，他可能住在皇后区，西区，希尔斯顿区，乔伍德区，或者北区郊外……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "伯克伦德街",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 管家",
+          "line": 125933,
+          "quote": "“先生，您可以选择伯克伦德街32号，它靠近圣赛缪尔教堂，是栋三层楼房，有十多个房间，带马厩、仆人房和一个相当大的花园，附近居住着从男爵、下议院议员、资深大律师……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十章 敲定",
+          "line": 125975,
+          "quote": "“伯克伦德街160号的房屋也在出租，同样是带花园、马厩、仆人房的三层小楼，共十几个房间，但地理位置不如32号那栋，陈设布置、家具器皿也仅能称得上得体，每年租金是3",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "明斯克街",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 希望之地",
+          "line": 36997,
+          "quote": "“乔伍德区明斯克街15号……联排房屋……每周租金18苏勒……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 萨默尔太太",
+          "line": 37105,
+          "quote": "他又坐了近十分钟的出租马车，终于找到了明斯克街，按照报纸上的描述，来到15号隔壁的17号，拉响了门铃。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "大桥南区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十九章 线索",
+          "line": 51859,
+          "quote": "“大桥南区，月季花街，丰收教堂，找乌特拉夫斯基主教。只要你能帮他完成一个任务，就有可能得到药师配方。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十三章 “巨人”主教",
+          "line": 52497,
+          "quote": "他要去大桥南区，去月季花街的丰收教堂，找乌特拉夫斯基主教，争取拿到“药师”配方——这件事情，他已经占卜过是否危险。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "所罗门帝国",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 仪式",
+          "line": 871,
+          "quote": "“爸爸果然在欺骗我，每次都给我讲这面镜子是古代所罗门帝国黑皇帝的珍宝，是非凡物品……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九章 笔记",
+          "line": 1669,
+          "quote": "多缺失，就连出土的陵寝、古城和文献都少之又少，历史学家和考古学家们只能借助于七大教会含糊不清、以信仰教育为主的神学典籍才能勉强拼凑出一点“原貌”，知道所罗门帝国、图铎王朝、特伦索斯特帝国的存在。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "廷根",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 239,
+          "quote": "挥舞手杖，击打盥洗室之门，大声嚷嚷“该死的小偷！”“浪费是可耻的事情！”“我记住你了！”“再让我看见一次，就带上你肮脏的行李滚出去！”“相信我，这是全廷根市最划算的公寓，你再也找不到比我更慷慨的房东了！”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "霍伊大学",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一章 绯红",
+          "line": 107,
+          "quote": "母亲是黑夜女神信徒，在克莱恩通过霍伊大学入学考试那年过世……",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "铁十字街",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 611,
+          "quote": "铁十字街和水仙花街交汇的位置有一个市政广场，此时搭起了诸多帐篷，有装扮古怪好笑的小丑正四处散发传单。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十一章 真正的厨艺",
+          "line": 1961,
+          "quote": "等待了几分钟，门口毫无动静，只得两位租客相约着去铁十字街“狂野之心”酒吧的交谈声由远及近，再由近及远。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "恶龙酒吧",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十八章 “怪物”",
+          "line": 11913,
+          "quote": "当阳光染上燃烧般的感觉时，马车停了下来，依旧是那身古典黑色长袍和同色圆边毡帽的老尼尔毫不在意别人目光地走向了斜对面的“恶龙酒吧”。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十八章 “怪物”",
+          "line": 11971,
+          "quote": "“恶龙酒吧”的中央立着一个拳击台，两位赤裸着上身的男子正在激烈搏斗，周围好几十号酒客则为各自支持的对象纵声呐喊，其中不乏一些粗俗之语。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "圣乔治区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十三章 惊恐的休",
+          "line": 39049,
+          "quote": "那是蒸汽与机械之神教会贝克兰德教区的总部，在圣乔治区，毗邻着东南方向的诸多大工厂。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 发明家雷帕德",
+          "line": 39113,
+          "quote": "等下做个占卜，如果没什么事情，就去圣乔治区萨奇街拜访雷帕德先生，看他的新型交通工具有没有投资的价值……贝克兰德还真是大啊，每个区都几乎等同于廷根市，东区尤其夸张，至少超过了两倍……最便捷最省钱",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "西区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3255,
+          "quote": "组等，而从第五组开始，就针对郡内各个市的超自然事件了，我们第七小组负责廷根市女神信徒相关的事件，如果有不同信仰者存在，就按照地域划分，我们主要是北区、西区和金梧桐区等地方。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11665,
+          "quote": "西区，铁十字街下街。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "东区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3257,
+          "quote": "邓恩大概介绍了一下，“隶属于风暴之主教会‘代罚者’队伍的第六小组负责码头区、东区和南区，大学区和郊外归第五小组，也就是‘机械之心’在廷根的小队。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十九章 “职业”和住房都是严肃的事情",
+          "line": 5315,
+          "quote": "，我们更多是针对真正住房困难，六个，八个，甚至十个，十二个挤在一个房间里的劳工和他们的孩子，联排的房屋并不多，一处就在水仙花街2号，一处在北区，一处在东区……每周租金12到16苏勒不等，你们可以看看具体的介绍。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "北区",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3193,
+          "quote": "红月亮街圣赛琳娜教堂是黑夜女神教会的廷根市总部，是本地虔诚信徒们都向往的神圣之地，与郊外的蒸汽与机械之神教会“圣数教堂”，同样位于廷根北区的风暴之主教会“河与海教堂”共同支撑起了廷根市及附属镇、村的宗教界。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3255,
+          "quote": "所保护组等，而从第五组开始，就针对郡内各个市的超自然事件了，我们第七小组负责廷根市女神信徒相关的事件，如果有不同信仰者存在，就按照地域划分，我们主要是北区、西区和金梧桐区等地方。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "贝克兰德桥",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27417,
+          "quote": "“目标居住的区域距离流浪汉众多的东区、贝克兰德桥等地方不会太近，也不会太远……频繁在周围寻找受害者，是不成熟的表现，这和你们的描述不符……而如果要花费很长一段时间才能找到想要谋杀的对象，目标可能控制",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27423,
+          "quote": "“综上所述，我们可以勾勒出目标的活动范围，他居住在离贝克兰德桥区域不远的地方，考虑西区和乔伍德区的塔索克河两岸……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "廷根大学",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 319,
+          "quote": "“两天后，要参加廷根大学历史系的面试……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 321,
+          "quote": "“鲁恩王国的大学有毕业生不直接留校的传统……导师给了一份廷根大学，一份贝克兰德大学的推荐信……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "勇敢者酒吧",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十二章 不露痕迹地引导",
+          "line": 38785,
+          "quote": "“贝克兰德桥区域，铁门街，‘勇敢者酒吧’，找卡斯帕斯·坎立宁，就说是‘老头’介绍的。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 勇敢者酒吧",
+          "line": 40041,
+          "quote": "### 第十九章 勇敢者酒吧",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "佐特兰街",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 3081,
+          "quote": "“我明白了，其实……佣兵小队还存在的，只是换了个形式，换了个更贴近现在社会的名字，你去佐特兰街36号2楼可以找到一个。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 3091,
+          "quote": "克莱恩好笑摇头，快步离开，问路到了附近的佐特兰街。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "圣赛琳娜教堂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3189,
+          "quote": "“往左通向圣赛琳娜教堂，往右是武器、材料和文献库，直行是查尼斯门。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3191,
+          "quote": "圣赛琳娜教堂？佐特兰街难道就在红月亮街的背面？克莱恩听得呆了呆。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阿霍瓦郡",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 103,
+          "quote": "克莱恩·莫雷蒂，北大陆鲁恩王国阿霍瓦郡廷根市人，霍伊大学历史系刚毕业的学生……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2449,
+          "quote": "“我们下去吧。”邓恩理了理到膝盖位置的黑色风衣，“呵，我提前介绍介绍，‘专家’对外伪装的身份是阿霍瓦郡最知名的通灵者。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "南威尔郡",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十八章 海纳斯·凡森特",
+          "line": 8687,
+          "quote": "鲁恩王国南威尔郡最著名的是啤酒和红酒，不少大人物都相当喜欢，而咖啡相对就没什么名气了。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十章 三件事情",
+          "line": 38425,
+          "quote": "这位侦探是南威尔郡人，父母、亲戚和朋友都在那边，他只身一人闯荡贝克兰德，逐渐有了些名气。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "迪西海湾",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十五章 邀请",
+          "line": 2801,
+          "quote": "“对了，没有周日，只能轮休，必须保持随时有三位文职人员在工作，如果你想去南部、去迪西海湾做一个度假，那就需要和同事协调好。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3125,
+          "quote": "“直通康斯顿城的蒸汽列车‘飞翔号’今日开通……真是的，什么时候才能直达迪西海湾，我可不想再坐船去，太难受了，非常难受……咦，你是谁？”棕发女孩装模作样地念了一通，发表了意见，而说着说着，她放低报纸，露出光洁的额头和浅棕色的眼眸，",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "加尔加斯群岛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百四十三章 扮鬼",
+          "line": 78789,
+          "quote": "“只有加尔加斯群岛的渔夫们，才会在捕猎白尾鲸的远航里，于风暴中偶尔听见美人鱼的歌声。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百四十三章 扮鬼",
+          "line": 78791,
+          "quote": "加尔加斯群岛位于苏尼亚海深处，是人类在这片海洋上最远的殖民点，以鲸油，鲸肉等产品为特色。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "奥拉维岛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百二十章 声名鹊起",
+          "line": 103643,
+          "quote": "“你需要做的事情只有一件，那就是带着那枚骰子前往奥拉维岛，将它交给港口城市的敲钟人卡诺，我的老师瑞乔德‘议员’就躲在那里，之后的事情他会处理。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百二十章 声名鹊起",
+          "line": 103655,
+          "quote": "他再也不敢停留于这里，决定今晚就转移住处，决定今晚就去买黑船票，明天一早前往奥拉维岛——那是位于“罗思德群岛-托斯卡特”航线上的一座岛屿。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "巨人王庭",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十八章 “巨人”途径",
+          "line": 24483,
+          "quote": "“……白银之国曾经处于巨人王庭的统治之下，所以我们掌握的非凡链条正是‘巨人’途径，我们又称它为‘神血战士’途径……我们在杀掉某些怪物时，在探索那些被毁掉的城市时，又获得了一些其他序",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十八章 “巨人”途径",
+          "line": 24487,
+          "quote": "我最喜欢了解序列魔药相关的事情！巨人王庭……白银城和北大陆同一个历史？第二纪的历史……嗯，杀怪物会掉配方？这是玩游戏吧？不，还有一种可能，就是那些怪物曾经是人类，是非凡者……克莱恩忽然有了点",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "神弃之地",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十一章 他乡遇故知",
+          "line": 3803,
+          "quote": "“九月二十三日，我与寻找‘神弃之地’的船只失去了联系，我该考虑发明无线电报了，但愿它不会受风暴影响。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十一章 他乡遇故知",
+          "line": 3817,
+          "quote": "“神弃之地是哪里？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "永暗之河",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百九十章 古老年代里的传闻",
+          "line": 187133,
+          "quote": "现，但却褪去了淡金，重显银色，“古神们怀疑地底污染的源头就来自类似‘源堡’的地方，称呼它为‘混沌海’，还有，传闻卡尔德隆这座灵界城市的深处，有隐藏着‘永暗之河’的线索，这来自远古死神，不死鸟始祖格蕾嘉莉，至于其他的，我就听过一些名字，并且不够完整，这有‘暗影世界’，‘知识荒野’，以及与月亮有关的‘母",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十章 古老年代里的传闻",
+          "line": 187135,
+          "quote": "“一共八个，‘混沌海’、‘永暗之河’、‘知识荒野’、‘暗影世界’、‘母巢’……‘母巢’与月亮有关，听起来就很危险……不知道和‘欲望母树’有没有关系……”克莱恩无声重复了一遍阿罗德斯回答",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灵界",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1197,
+          "quote": "“不，很多时候，占卜来源于自身，每个人都有灵性，都能交感到灵界，交感到更高层次的关系自身的信息，只是普通人无法察觉这点，更加别说去解读获得的‘提示’了，当他们使用占卜工具的时候，这些信息就会借助工具呈现出来，一个",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2581,
+          "quote": "多隐秘，看，那片大海，我们自己能够了解的只有露出于海面的岛屿，但实际上，在海面之下，岛屿还有更大的部分，但实际上，除了岛屿，还有整片的大海，还有象征着灵界的无边无际天空……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "星界",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百章 古老的神灵",
+          "line": 53709,
+          "quote": "鬼始祖莉莉丝，恶魔君王法布提，不死鸟始祖格蕾嘉莉，异种王克瓦希图恩，魔狼之王弗雷格拉，瓜分了主遗留的权柄，成为了主宰天空、大地和海洋，主宰现实、灵界与星界，主宰各个种族的神灵，真正的神灵，古老的神灵。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百五十九章 隐患",
+          "line": 81705,
+          "quote": "“阿兹克·艾格斯明显还未恢复全部的记忆和实力，他借助灵界和星界尝试的穿行在这个时候恰好因这方面的隐患出了问题，于是，他和夏洛克·莫里亚蒂落到了距离因斯·赞格威尔和他的朋友不远的地方。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灰雾之上",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六章 非凡者",
+          "line": 919,
+          "quote": "灰雾之上短暂沉默了几秒，周明瑞轻笑了一声，语气平淡，嗓音低而不沉，就像在回应访客礼貌性的问候：",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六章 非凡者",
+          "line": 945,
+          "quote": "嗓音甜美的少女和沉稳内敛的男子都相当虚幻，染着微赤，就像那两颗深红“星辰”在灰雾之上的投影。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "蒸汽教堂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百一十六章 各方",
+          "line": 74039,
+          "quote": "蒸汽教堂地下区域。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百三十一章 告解",
+          "line": 76751,
+          "quote": "旋即，他转身出门，乘坐出租马车前往蒸汽教堂。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "风暴教堂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十九章 线索",
+          "line": 51867,
+          "quote": "“我有个朋友很不幸地在这次的大排查里被发现，被代罚者关入了某座风暴教堂的地底，我想请几位帮手共同营救他。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八十九章 线索",
+          "line": 51871,
+          "quote": "“‘野狗’，放弃这个打算！一座风暴教堂的代罚者和封印物，足以毁灭我们这里所有人。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黑夜教堂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零三章 “观众”的直觉",
+          "line": 173505,
+          "quote": "怎么会这样……休和佛尔思就算沿途没有一点耽搁，保持较快的速度，也至少得一刻钟才能抵达最近的黑夜教堂……幸运的是，我还算谨慎，提前祈求“愚者”先生赐予了天使祝福，刚才也是真的催眠了休和佛尔思……奥黛丽心中念头瞬间此起彼伏，又迅速被她压制了下去。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零三章 “观众”的直觉",
+          "line": 173515,
+          "quote": "毫无疑问，她明白自己首先得应付过赫温·兰比斯接下来的询问，不让这位半神产生一点怀疑，可若就只是这样，对方也许三五分钟就会离去，而休和佛尔思肯定还未进入黑夜教堂，没完成误导的步骤，到时候，强行点燃帽饰，召唤“世界”，很容易让事情的收尾出现瑕疵，无法真正地解决隐患问题。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "大地母神教堂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百二十二章 聚合效应",
+          "line": 75217,
+          "quote": "他和埃姆林把好好的大地母神教堂弄得就像军火或毒品交易现场一样……",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十三章 善为人师",
+          "line": 92689,
+          "quote": "想了想每天跑大地母神教堂的吸血鬼，他又平静了下来。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "贝克兰德大学",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 321,
+          "quote": "“鲁恩王国的大学有毕业生不直接留校的传统……导师给了一份廷根大学，一份贝克兰德大学的推荐信……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 583,
+          "quote": "然而，这一切的前提是能通过廷根大学或贝克兰德大学的面试。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "间海郡",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1677,
+          "quote": "比如韦尔奇·麦格文就是鲁恩王国间海郡康斯顿城一名银行家的儿子，为人豪爽，出手阔绰，因为长期和克莱恩、娜娅分在一个小组做作业做报告，所以习惯性请他们帮忙。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十六章 练习",
+          "line": 4709,
+          "quote": "间海郡的康斯顿市又称风城，是煤钢产业极度发达的地区，在鲁恩王国所有的城市里能排进前三。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "拜朗王国",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第一百一十九章 漫游星空者",
+          "line": 176199,
+          "quote": "“也正是为了平衡，皇帝陛下没有进攻南大陆，任由死神统一了丰收平原和远古森林，建立了拜朗王国。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "占卜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "序章",
+          "line": 9,
+          "quote": "枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 453,
+          "quote": "### 第四章 占卜",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "封印物",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "序章",
+          "line": 9,
+          "quote": "枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3401,
+          "quote": "### 第十九章 封印物",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "梦境",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 21,
+          "quote": "光怪陆离满是低语的梦境迅速支离破碎，熟睡中的周明瑞只觉脑袋抽痛异常，仿佛被人用棒子狠狠抡了一下，不，更像是遭尖锐的物品刺入太阳穴并伴随有搅动！",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2285,
+          "quote": "“你操纵梦境？你让我做了刚才那样的梦？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "失控",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2673,
+          "quote": "“第二嘛……”邓恩抓住扶手，登上马车道，“我们，代罚者，机械之心，以及其他类似的审判机关，每年处理的事件里，有四分之一是非凡者的失控。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2675,
+          "quote": "四分之一……非凡者失控……克莱恩一下怔住。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "污染",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十七章 俱乐部",
+          "line": 6597,
+          "quote": "因为要从铁十字街一直走到韦尔奇的住所，他换掉了正装、礼帽和皮靴，改成了亚麻衬衣、陈旧棕色外套、同色圆边毡帽和老旧皮鞋，这样就不用担心汗水味道污染那价值不菲的一套了。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27413,
+          "quote": "“目标对风有偏执的喜爱……那么，在‘尘埃之都’贝克兰德，他肯定不会挑选污染严重的区域长期居住，也就是说，他可能住在皇后区，西区，希尔斯顿区，乔伍德区，或者北区郊外……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "诅咒",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "序章",
+          "line": 9,
+          "quote": "枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1533,
+          "quote": "“他们的时代结束了，哪怕他们或多或少有非凡之力，有幽灵或诅咒之船，纵横海洋的也只能是铁甲舰！”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "降临",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 187,
+          "quote": "哒哒哒，摩擦点火之声连响，光明却没有如同周明瑞预料一样降临。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2415,
+          "quote": "“当我们以为事情结束，一切都已经恢复正常的时候，它会以让人恐惧的、惊悚的方式再次降临。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "邪神",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2417,
+          "quote": "“前几年，我们处理过一个邪教的案子，他们组织信徒以自杀的方式完成活祭，取悦邪神，其中一位信徒被选中后，求生的本能战胜了愚蠢，战胜了异信，战胜了迷幻药，偷偷跑到警察局报案。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3363,
+          "quote": "“这是一些邪神弄出来的东西，具体出现在哪个年代，记载了什么，有什么特殊，我也不是太清楚，如果你有发现线索，必须立刻禀报我，它拥有最高响应等级。”邓恩含糊解释道，“刚",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灵界",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1197,
+          "quote": "“不，很多时候，占卜来源于自身，每个人都有灵性，都能交感到灵界，交感到更高层次的关系自身的信息，只是普通人无法察觉这点，更加别说去解读获得的‘提示’了，当他们使用占卜工具的时候，这些信息就会借助工具呈现出来，一个",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2581,
+          "quote": "多隐秘，看，那片大海，我们自己能够了解的只有露出于海面的岛屿，但实际上，在海面之下，岛屿还有更大的部分，但实际上，除了岛屿，还有整片的大海，还有象征着灵界的无边无际天空……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "非凡特性",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百零七章 守护者",
+          "line": 35679,
+          "quote": "“这个定律叫做，非凡特性不灭定律。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零七章 守护者",
+          "line": 35681,
+          "quote": "“非凡特性不会毁灭，不会减少，只是从一个承载物转移到另一个承载物。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "契约",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十五章 邀请",
+          "line": 2799,
+          "quote": "“对于文职人员，我们一般是五年契约，五年后如果你不愿意做了，可以正常离职，只是必须再补签一份终生保密条款，不得到我们的批准不能离开廷根，搬迁去别的城市也需要第一时间找当地值夜者登记。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3219,
+          "quote": "“那你看下这份契约，呵呵，现在大家喜欢叫合同。”邓恩拉开桌子抽屉，拿出了一式两份的契约。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "悬赏",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百一十五章 诈骗犯",
+          "line": 20543,
+          "quote": "“我们已经报警，警方也很重视，经过商量，我们愿意从追回来的金钱里拿出一部分作为悬赏，无论是谁，只要能够提供兰尔乌斯下落的有关线索，一旦核实有效，就能得到10镑的奖励，如果能给予确切的藏身信息，帮助警察抓到兰尔乌斯，更是可以收获100",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十六章 兰尔乌斯的孩子",
+          "line": 20655,
+          "quote": "“我是提前知道一起案子会有悬赏，所以才想翻翻报纸，记住罪犯的长相，也许哪天遇上了呢？”克莱恩含笑解释道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "通缉",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十六章 画像",
+          "line": 8415,
+          "quote": "“你们拿着瑞尔·比伯的画像去询问这里的住户，做最后的确认，接着以谋杀母亲的名义通缉他。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四十七章 缺钱的老尼尔",
+          "line": 8455,
+          "quote": "“而我们通缉瑞尔·比伯的事情很快就会传到密修会那里，他们应该能够猜想到，这与安提哥努斯家族笔记的下落相关，相信我，这些存活了上千年的隐秘组织，肯定有着各种各样的消",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "追查",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十章 晚宴的邀请",
+          "line": 14225,
+          "quote": "“我得去巡视拉斐尔墓园了，呵，忘记一件事情，伦纳德和警察部门对密修会成员的追查有了一定成果，找到了搭载过他们的马车夫，确定了他们在廷根市的临时居住点，但他们相当谨慎，没留下特别有价值的线索。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零一章 意外的线索",
+          "line": 18105,
+          "quote": "“你让老尼尔多弄几份，我等下就让科恩黎和洛耀他们去追查，并请警察部门协助，如果这条线索确实有用，你又立下功劳了。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "晋升仪式",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十八章 收获",
+          "line": 43161,
+          "quote": "“晋升仪式：在美人鱼的歌声里服食魔药。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十三章 回归",
+          "line": 141595,
+          "quote": "“晋升仪式：主要依靠自身的力量和策划，在众多观众的目睹下，导演一出盛大的戏剧，以此谋杀一位半神或同等的超凡生物，然后，在戏剧的尾声部分，服食魔药。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "集体潜意识大海",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十三章 深夜来“电”",
+          "line": 96001,
+          "quote": "梦中……“观众”途径属于心灵巨龙，涉及意识、潜意识、集体潜意识大海和灵性的天空，无论从哪个方面讲，都必然涉及“梦”的领域……这首古老的歌谣或许真的昭示着什么……“利维希德”不会真的存在于集体潜意识大海里，存在于梦境中",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七十五章 自我暗示",
+          "line": 96419,
+          "quote": "根据“心理炼金会”的理论，潜意识的底部就是她的目的地——所有生物的集体潜意识大海！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "隐秘存在",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零五章 通灵",
+          "line": 18727,
+          "quote": "每一位“倾听者”都能直接听到对应的隐秘存在的耳语，所以，他们往往可以获得不少强大的、扭曲的、独特的能力，但相应的，“倾听者”如果无法获得晋升，那他们很难存活超过五年，另外，值夜者内部资料给予的",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百八十章 聪明人总是想太多",
+          "line": 31241,
+          "quote": "而“太阳”的回答没有让她失望，他们信仰的既不是主流的七位正统神灵，也不是南大陆的死神，更加不是“倒吊人”告诉过她的隐秘存在和邪神恶魔，比如原初魔女，隐匿贤者，宇宙暗面，被缚之神，真实造物主。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "异变",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十六章 善后",
+          "line": 13389,
+          "quote": "而且，他不想冒险再进入封印物“2-049”的影响范围，毕竟谁也说不清楚这一次会不会出现诡异变化，让“转运仪式”的自救失效。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零七章 守护者",
+          "line": 35803,
+          "quote": "“是的，不超过三分钟，梅高欧丝就会异变，她的孩子会提前降生。”伦纳德以肯定的口吻回答道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "预言",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十六章 魔女教派",
+          "line": 11635,
+          "quote": "的下落，可仅仅思考了十几秒，他就放弃了这个打算，毕竟只清楚对方大概的模样和一个不知道是真是假的名字，这要是都能借此掌握到行踪，就不叫“占卜家”，得称“预言家”了！",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七十九章 又一次的呢喃",
+          "line": 14081,
+          "quote": "“第三，这种情况下，除非是‘预言者’，否则没可能占卜出凶手是谁。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "穿越",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 91,
+          "quote": "我，我不会穿越了吧？周明瑞嘴巴一点点张开。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 201,
+          "quote": "周明瑞知道这是鲁恩王国最基础的货币，叫做铜便士，1便士实际购买力大概相当于自己穿越前的三四块钱，这种硬币的币值还有5便士、半便士和四分之一便士三种，但依旧不够精细，在日常生活里，还是时不时得凑整来购买物品。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "魔药消化",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十六章 海上大逃杀",
+          "line": 10117,
+          "quote": "“为什么魔药消化的关键是‘扮演’？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零一章 意外的线索",
+          "line": 18061,
+          "quote": "别人对“占卜家”身份的认可，只是表面的因素，它之所以能让自身感觉灵性变得轻盈，是因为这种反馈强化了本身对某些占卜行为的确认，而这些行为共同构成了能让魔药消化的“占卜家守则”。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "扮演法",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六十五章 非凡者资料",
+          "line": 11501,
+          "quote": "罗塞尔的“扮演法”正是源于一位神秘人物查拉图的提醒！",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十五章 非凡者资料",
+          "line": 11503,
+          "quote": "“因为那位神秘的查拉图，罗塞尔大帝才后悔没选‘占卜家’？所以，间接影响到我，让我成为‘占卜家’，让扮演法回到了‘占卜家’的怀抱……真是有点宿命的味道啊……”克莱恩皱起眉头，觉得事情似乎多了些不一样的感觉。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "神话生物形态",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百二十三章 神话生物",
+          "line": 120423,
+          "quote": "“每一位半神，包括圣者和天使，都有自己的神话生物形态，这是一种糅合了复杂知识、神性特质和隐秘符号的非人类形态，普通人即使只是看上一眼，就会遭受严重的伤害，甚至精神失常，而半神的位格越高，类似的伤害越强，",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百二十三章 神话生物",
+          "line": 120425,
+          "quote": "“对半神来说，失控的一大特点就是，失去理智，再也无法收敛自身的神话生物形态。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "心灵岛屿",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十八章 心灵世界",
+          "line": 161737,
+          "quote": "此时，奥黛丽“心灵岛屿”上的赫温·兰比斯正面无表情地打量周围，倾听这里回荡的声音。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十八章 心灵世界",
+          "line": 161745,
+          "quote": "说话的过程中，她对这种略显幼稚的行为似乎有点不好意思，“心灵岛屿”忠实地反应了这一点。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "潜意识海洋",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十五章 自我暗示",
+          "line": 96431,
+          "quote": "集体潜意识海洋……奥黛丽向前几步，抬头上望，意外发现“灰蒙”不再遮掩自己的视线，高空清晰地呈现了出来。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七十五章 自我暗示",
+          "line": 96469,
+          "quote": "它宏大史诗般的身影迅速远去，消失在了所有生物的潜意识海洋里。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灵性直觉",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十八章 最里面的房间",
+          "line": 44839,
+          "quote": "不用灰雾排除干扰的情况下，他觉得保镖小姐的灵感和灵性直觉，要比自身目前水准的占卜可靠，毕竟对方的状态很特殊，接近灵体，可以无障碍地沟通灵界，得到启示。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十章 出手配方",
+          "line": 46853,
+          "quote": "这是上次卖符文钢剑的那位女士吧？占卜家的灵性直觉告诉我是……她又有两件类似的武器了？她背后是超凡者军火集团吧……嗯，也许她背后有一位“工匠”，又被称为“机械专家”的“通识者”途径序列6“工匠”……克",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灵摆占卜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十章 神秘学课程",
+          "line": 7175,
+          "quote": "“也可以解读为不顺利和顺利。”老尼尔纠正了一下，将灵摆占卜的其他用法和细节教给了克莱恩。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十六章 为难的克莱恩",
+          "line": 24225,
+          "quote": "紧接着，他解下左边袖口内的黄水晶吊坠，做了一次灵摆占卜。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "仪式魔法",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十八章 密修会",
+          "line": 5159,
+          "quote": "“‘窥秘人’在魔法、巫术、占星术等神秘知识上有着全面但初步的了解与掌握，懂得不少仪式魔法，但很容易感知到隐藏于事物背后的某些存在，必须小心翼翼，对非凡力量充满敬畏。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十九章 “职业”和住房都是严肃的事情",
+          "line": 5191,
+          "quote": "“因为缺乏直接的对敌手段，呵，你应该能够想象到，仪式魔法需要太多的准备，根本不适合遭遇战，所以，相应地，在神秘学知识上，‘占卜家’会比‘窥秘人’更博学，更专业。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "献祭",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十九章 有趣的技巧",
+          "line": 6953,
+          "quote": "“也许我和韦尔奇、娜娅触及到的未知存在，既享受生命的‘献祭’，又希望继续有类似的事情，所以，在‘自杀事件’肯定会被发现的情况下，让我带走笔记，隐藏起来，为第二次的‘享受’做准备，只是过程中不知出了什么问题，我",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十九章 有趣的技巧",
+          "line": 6959,
+          "quote": "“不错的解释，但我想，或许还有另外的可能，韦尔奇和娜娅的自杀献祭，让那位未知的存在有了降临的可能，那本笔记就承载或者孕育着邪恶，让你带走它，隐藏起来，是担心在‘诞生’，在‘强大’之前，被我们发现，直接毁掉。”伦纳德",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "召唤",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十六章 一个简单的问题",
+          "line": 6507,
+          "quote": "他在建立联系，“召唤”来“正义”和“倒吊人”的投影时，敏锐察觉了一件事情。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十六章 一个简单的问题",
+          "line": 6511,
+          "quote": "“也就是说，能再‘召唤’来一位？”克莱恩回想那种感觉，几乎确定地自语了一句。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "封印",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "序章",
+          "line": 9,
+          "quote": "枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3401,
+          "quote": "### 第十九章 封印物",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "谋杀",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十六章 画像",
+          "line": 8415,
+          "quote": "“你们拿着瑞尔·比伯的画像去询问这里的住户，做最后的确认，接着以谋杀母亲的名义通缉他。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十七章 梦想的物品",
+          "line": 27415,
+          "quote": "“目标是位心理有疾病的连环杀手，每隔一天，就要谋杀一位活人……合理的做法是针对那些无家可归的流浪汉，在贝克兰德，连警察都弄不清楚究竟有多少流浪汉……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "失踪",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3455,
+          "quote": "“确认你真的遗失记忆后，韦尔奇和娜娅的案子就算完结了，同样的，那本安提哥努斯家族的日记也彻底失踪了，我们怀疑你当时有带着它离开，在回家的途中将它隐藏，所以我们才没有在你家里找到什么线索，这应该也就是你为什么不是在现场，而是在家里‘自杀’的可能原因",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3509,
+          "quote": "“对了，这个你看一看，三年前，有位新任大主教失控，不知道怎么就闯过了重重保护，带着一件‘0’级封印物神秘失踪了，你认下他的照片，如果有发现，不要惊动，不要打扰，回来禀报，否则，你百分之一千殉职。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "调查",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十章 常态",
+          "line": 1891,
+          "quote": "这就结束了？今天就告一段落了？不再多问问，再调查调查？或者将我抓回警局用刑？克莱恩一阵茫然。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十二章 再次上门",
+          "line": 2181,
+          "quote": "“克莱恩先生，请你配合调查，和我们回一趟警局，这大概需要两到三天，如果你确实没有问题的话。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "探险",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百二十三章 克莱恩的要求",
+          "line": 75351,
+          "quote": "正被军情九处追寻，贸然联系，很容易给对方和他自己带来麻烦，三是克莱恩大概率会因此重新进入封印物“0-08”的视线，当然，他有考虑过借助灰雾来完成联络和探险的可能，但灰雾之上吹响铜哨根本召唤不出信使这点就死死卡住了后续的设想。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十七章 命名",
+          "line": 90157,
+          "quote": "“我们在上一次的探险里，找到了一艘沉船，虽然没收获太有价值的东西，但却发现了一把不像人类使用的，巨大的黑铁钥匙。你能想象吗？沉在海底那么多年，它竟然没有生锈。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "航海",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十六章 一个简单的问题",
+          "line": 6591,
+          "quote": "“7，航海家。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十五章 非凡者资料",
+          "line": 11517,
+          "quote": "“序列7，‘航海家’，古称‘风暴牧师’，对应的非凡者也是天文地理的学者，他们对磁场，对洋流，对风向，对云朵，都有着直觉的把握……有‘航海家’的船只从来不会在大海上迷路",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "战争",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十五章 交流消息",
+          "line": 6405,
+          "quote": "怎么晕倒，怎么优雅而不失礼貌地晕倒，这是在社交场合逃避一些尴尬情况和可恶家伙的实用技巧……呵呵，我刚才是在组织语言，我真正想说的是，自从在拜朗东海岸的战争失利，国王、首相和所有的先生们，都感受到了极大的压力，有着迫切改变的愿望。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十六章 一个简单的问题",
+          "line": 6413,
+          "quote": "“他们认为现在政府的结构太过混乱，每次选举完毕，只要出现党派的更替，都会从上到下换一批人，让事情变得一团糟，效率极其低下，这不仅造成了战争的失利，还给民众们带来了极大不便。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "政变",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五章 免费的常识",
+          "line": 37539,
+          "quote": "后面呢？克莱恩正好奇密修会首领查拉图在叛乱和政变的前夕找罗塞尔的目的，结果发现后续的两页笔记都与此无关。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 免费的常识",
+          "line": 37545,
+          "quote": "历史教材上清楚地记录了结果，罗塞尔以上校的身份平复了叛乱，顺势政变，将因蒂斯王国改为共和国，自任执政官。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "实验",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3353,
+          "quote": "“经过漫长的实验和摸索，加上‘亵渎石板’的出世，人类终于完善了魔药体系，形成了一些逐阶提升，稳定增长的序列链条，序列数字越低，魔药品阶越高，到今天，七大教会各自最少掌",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十一章 他乡遇故知",
+          "line": 3789,
+          "quote": "“十一月十八日，真是件神奇的事情，一个异想天开的实验和一个偶然出现的失误，让我发现了一位困于风暴之中，迷失于黑暗深处的可怜家伙，他甚至只能在每个月满月的时候才能稍微靠近现实世界，可依然无法将他的呼喊传递",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "复活",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十七章 白银之城",
+          "line": 24383,
+          "quote": "神灵，还是愚者，我的祈求都不改变，我希望白银之城的所有人摆脱宿命的诅咒，希望天空中出现，出现那些书籍里描述的太阳，如果，如果可以，我还希望我的父母能够复活。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十四章 可怜虫",
+          "line": 28557,
+          "quote": "“我？”老尼尔先是茫然，接着充满憧憬地述说道，“我在尝试复活莎莉丝特，邓恩，我已经找到了办法，我走在正确的路上！”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "神降",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十九章 “赐予”与“献祭”",
+          "line": 27675,
+          "quote": "“8月9日，这两天发生的事情让我感觉不是太好，我亲手开启的工业革命，亲手铸就的蒸汽与机械时代，将成为邪神降生的温床？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十九章 “赐予”与“献祭”",
+          "line": 27677,
+          "quote": "什么意思？邪神降生的温床？克莱恩微皱眉头，食指轻缓地敲击起古老长桌的边缘。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灾难",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3497,
+          "quote": "…”说到这里，邓恩·史密斯停顿了一下才道，“而且这里面有一部分的存在非常特殊，本身具备某种‘活着’的特性，会引诱看守者，会影响周围，会自行逃脱，会造成灾难性后果，必须严格控制。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十三章 倾听者",
+          "line": 9469,
+          "quote": "它的速度并不快，体积也不够大，在这天与海浑然一体的灾难场景里就如同离开了树木的枯叶，但是，不管飓风如何猖狂，海浪怎样恐怖，它都安然航行，未见倾斜。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "末日",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1531,
+          "quote": "“从现在开始，那七个自称为将军的海盗，那四个僭越称王的海盗，只能浑身颤抖，等待末日！”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十九章 “投骰”成功",
+          "line": 34463,
+          "quote": "“只要靠拢‘原初’，我们就能得到圣化，得到变强，得到救赎，躲过最终的末日。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "阴谋",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七十七章 残留物",
+          "line": 13605,
+          "quote": "承诺过，等确认瑞尔·比伯是安提哥努斯家族的后裔，就让你成为值夜者的正式成员，现在，我们不仅肯定了瑞尔·比伯的身份，而且还消灭了这个怪物，挫败了密修会的阴谋。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零五章 通灵",
+          "line": 18797,
+          "quote": "“不错，你破坏了一起针对廷根市的阴谋，你可以回去休息了，科恩黎，你去找老尼尔过来。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "背叛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 651,
+          "quote": "可惜的是，他年老之后，遭遇背叛，于第五纪1198年被永恒烈阳教会、原因蒂斯王族索伦家族和其他贵族联手刺杀，陨落于白枫宫。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零四章 Z先生",
+          "line": 18513,
+          "quote": "“请允许我为自己辩护，我和海纳斯将安提哥努斯家族的笔记转手卖掉并不是愚蠢，也不是背叛，在我们手里的时候，它表现得没有一点特殊。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "贵族舞会",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第三章 丰富的信息",
+          "line": 84005,
+          "quote": "“三月十六日，第一次参加这个世界这个国家的贵族舞会。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "交易",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1065,
+          "quote": "“阁下，请您做我们交易的见证。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1095,
+          "quote": "“尊敬的愚者先生，请允许我冒昧恳求，您可以做我们交易的见证吗？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "委托",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3259,
+          "quote": "“嗯。”克莱恩对这事找不到什么想问的，转而笑道，“这要是真有人因为‘黑荆棘安保公司’的牌子上门委托任务，那怎么办？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十四章 预付的报酬",
+          "line": 6209,
+          "quote": "“您有什么事情委托？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "晋升",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3383,
+          "quote": "停顿片刻，他才感叹道：“我们值夜者内部规定，即使队员立下很大的功劳，也必须在上份魔药服食三年且经过对应考查后，才能获得晋升，可就算这样，每年也有不少人因此而失控。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3427,
+          "quote": "比较低的，而且自身主要是为了解决目前的潜在危险，了解神秘学精髓，找到穿越回去的办法，才走出这一步，并未瞄准高序列的“位置”，如果真容易失控，大不了就不晋升，留在原序列，靠知识来谋划“回家”之事。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "猎杀",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十八章 “巨人”途径",
+          "line": 24469,
+          "quote": "“最初的几十年里，植物无法生长，白银城严重缺乏食物，只能靠猎杀有肉体的黑暗怪物和某些变异的动物来充饥，人口开始难以遏制地飞快下降，幸运的是，后来找到了‘黑面草’，它能在这种环境下顽强生存，成为了我们可靠而稳定的食",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百章 欢愉魔女",
+          "line": 34491,
+          "quote": "值夜者内部资料对“猎人”的描述是，优秀的追踪者，杰出的陷阱专家，出色的猎杀者，对应序列8的名称是“挑衅者”，序列7则是“纵火家”，这些都和杀戮与战争有一定的联系。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "狩猎",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十三章 副手武器",
+          "line": 4175,
+          "quote": "鲁恩王国对热武器实行的是半管制政策，想要持枪，需申请“全类武器使用证”或“狩猎证”，但不管哪一种，都不能拥有连发步枪、蒸汽高压枪和六管机枪等军控事物。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十三章 副手武器",
+          "line": 4177,
+          "quote": "“全类武器使用证”可以随意购买和保存任何一种民用枪械，但获得极其麻烦，即使有一定地位的商人也可能通不过审核，“狩猎证”则相对容易，哪怕郊外的农夫，也能拿到，但这类执照仅限于使用猎枪，且有数量限制，不少薄有资产的人都会申请一个，以做危急情况下的自保，比如现在……",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "追捕",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十三章 倾听者",
+          "line": 9487,
+          "quote": "“追捕一位极光会的‘倾听者’。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第九十八章 阿兹克先生",
+          "line": 17637,
+          "quote": "真要说巧合，最明显的一件事情就是追捕绑架犯的时候，竟然在他们藏身的房间对面发现了失踪好些天的安提哥努斯家族笔记的线索。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "审讯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十五章 重返",
+          "line": 8203,
+          "quote": "是啊，这未免也太巧合了！要不是伦纳德刚才提到，艾略特被绑架案的初步审讯结果表明，没有隐秘势力或神秘力量操纵，只是一起单纯地为钱财铤而走险的案件，我都怀疑被谁刻意安排了……克莱恩对此也是颇感奇怪。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百章 欢愉魔女",
+          "line": 34485,
+          "quote": "治者奥古斯都家族和费内波特王国卡斯蒂亚家族共同掌握的“仲裁人”序列，但克莱恩感觉这是可能最小的一个，因为“仲裁人”对应的序列8是“治安官”，序列7是“审讯者”，看起来是往审判和裁决，而不是战争方向发展。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "审判",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1471,
+          "quote": "一把竖直向下，柄部是红宝石皇冠的“审判之剑”徽章在厢体两侧反射着阳光，这是奥古斯都家族传承久远可追溯至上一纪的象征。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2673,
+          "quote": "“第二嘛……”邓恩抓住扶手，登上马车道，“我们，代罚者，机械之心，以及其他类似的审判机关，每年处理的事件里，有四分之一是非凡者的失控。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "处决",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百二十五章 大胆的想法",
+          "line": 22333,
+          "quote": "来，特莉丝就有充裕的时间远离廷根了……嗯，回家到灰雾之上再试一试……克莱恩对特莉丝这种一言不合就搞大规模杀伤性惨案的家伙充满戒备，恨不得立刻找到，当场处决。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零七章 守护者",
+          "line": 35741,
+          "quote": "“我希望和他们继续并肩战斗，一起对抗黑暗里的怪物，一切处决那些疯狂的邪教徒，一起守护廷根市，所以，我选择了服食他们遗留的事物。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "传送",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百七十七章 突如其来",
+          "line": 30919,
+          "quote": "手链上原本有五颗石头，都能让她借助灵界穿行，做到类似于传送的事情，但现在，只剩下两颗了。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零五章 紧急安排",
+          "line": 35505,
+          "quote": "哎，不知道高层次的强者是否都懂得传送……应该不行吧……他来回转了几圈，忽然感觉身心都变得宁静，并发现两侧的煤气灯全部染上了幽蓝。",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "魔药",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "序章",
+          "line": 9,
+          "quote": "枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1015,
+          "quote": "“我手上其实有两份序列9的魔药配方。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "日记",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第九章 笔记",
+          "line": 1651,
+          "quote": "很显然，原主有记笔记的习惯，也有拿笔记当日记的爱好。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十章 常态",
+          "line": 1837,
+          "quote": "他刚说完，眼角余光就看见年轻警官走到书桌旁，拿起了那本更像日记的“笔记”。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "手杖",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 239,
+          "quote": "如果哗啦的动静较大，那弗兰奇先生就会不顾绅士风度，凶猛地挥舞手杖，击打盥洗室之门，大声嚷嚷“该死的小偷！”“浪费是可耻的事情！”“我记住你了！”“再让我看见一次，就带上你肮脏的行李滚出去！”“相信我，这是全廷根市最",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 仪式",
+          "line": 739,
+          "quote": "这张纸牌画着一位穿华丽衣物、戴绚烂头饰、肩上扛着手杖、杖头挂着行李、身后有小狗拉拽的年轻人，序号是“0”。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "左轮",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 57,
+          "quote": "墨水瓶之前，笔记本右侧，一根肚腹圆润的深色钢笔静静安放，笔尖闪烁着微光，笔帽搁于一把泛着黄铜色泽的左轮手枪旁边。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一章 绯红",
+          "line": 59,
+          "quote": "手枪？左轮？周明瑞整个人都愣住了，眼前所见的事物是如此陌生，与自己房间没半点相像之处！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "单片眼镜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十八章 业余爱好者",
+          "line": 6803,
+          "quote": "他是位三十来岁的男子，肤色较深，瞳孔呈暗绿色，头发淡黄而柔软，身穿白色衬衣，黑色马甲，胸口挂着副单片眼镜，气质颇为不错。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四十九章 占卜术",
+          "line": 8861,
+          "quote": "“下午好，格拉西斯，好久不见。”他含笑招呼道，只见这位有相同爱好的朋友穿着惯常的正装，打上了黑色的领结，胸前口袋处则悬挂着一副单片眼镜。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "十字架",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十八章 汇报",
+          "line": 15815,
+          "quote": "“在他的梦境里，我看见了一个十字架，巨大的十字架，撑满了天空的十字架，在这十字架上面，黑色铁钉钉着一个赤身裸体的男人，他两臂张开，双脚在上，头部如同吊坠般垂下，身体有着一道又一道的血渍",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八十八章 汇报",
+          "line": 15819,
+          "quote": "“巨大十字架，倒吊的、浑身血渍的男人……这和几个隐秘组织信奉的真实造物主有点像，但又有很大不同……”克莱恩疑惑地推测道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "怀表",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 367,
+          "quote": "他从抽屉里拿出的是一块银白色有藤蔓枝叶花纹的怀表，顶端轻轻一按，表盖便弹了开来。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 371,
+          "quote": "不得不说，梅丽莎或许真有机械方面的天赋，掌握理论知识后，便开始借助技术学校的工具捣鼓这块怀表，最近更是宣称将它修好了！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "圣徽",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3183,
+          "quote": "克莱恩敏锐注意到，墙上每隔一段距离就有一枚“黑暗圣徽”，那是黑夜女神的象征——“深黑为底，璀璨点缀，簇拥着刚好一半的绯红之月。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 特殊行动部",
+          "line": 3185,
+          "quote": "这些圣徽似乎没什么特殊，但行走于它们之间，克莱恩的心境却逐渐宁和，罗珊也闭上了嘴巴，不再像刚才那样闲谈聊天。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "黄铜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 57,
+          "quote": "墨水瓶之前，笔记本右侧，一根肚腹圆润的深色钢笔静静安放，笔尖闪烁着微光，笔帽搁于一把泛着黄铜色泽的左轮手枪旁边。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一章 绯红",
+          "line": 129,
+          "quote": "这时，他的视线落在了那把闪烁黄铜光泽的左轮手枪处，心头霍然冒出了一个疑问。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "符咒",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十一章 久闻终见",
+          "line": 14317,
+          "quote": "“好了，不要浪费时间，继续神秘学的课程吧，你还有很多仪式魔法需要掌握，你还必须真正学会怎么制作符咒和护身符。”老尼尔弄好了手磨咖啡。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八十三章 雕刻",
+          "line": 14759,
+          "quote": "另外，符咒和护身符的两面都必须进行雕刻，而每一面上布置哪些符号，哪些咒文，哪些标识，它们各自占据什么位置，有什么特殊的格式，则属于神秘学的进阶范畴，普通人之间流",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "星水晶",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5659,
+          "quote": "“最后一样，星水晶，50克。”老尼尔的嗓音响在克莱恩耳畔，让他回过了神，重新望向了长桌。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5667,
+          "quote": "“纯水+夜香草+金薄荷叶+毒堇汁+龙血草+拉瓦章鱼血液+星水晶=占卜家……”这个时候，克莱恩不由自主回想了一遍配方。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "拉瓦章鱼的血液结晶",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百九十八章 新的思路",
+          "line": 116267,
+          "quote": "“各位，你们谁有陨星水晶和拉瓦章鱼的血液结晶，或者它们的消息？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十八章 新的思路",
+          "line": 116273,
+          "quote": "陨星水晶？拉瓦章鱼的血液结晶？这听起来很耳熟啊……这不是因为我本身就有“占星人”魔药配方……对了，熟悉是因为“占卜家”魔药配方的主材料是星水晶50克，拉瓦章鱼的血液10毫升！“占",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "安曼达纯露",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百七十三章 活尸化",
+          "line": 30117,
+          "quote": "有着刚才的经验，克莱恩没敢放松，当即拿出夜香草、深眠花、洋甘菊混合蒸馏萃取的“安曼达纯露”和龙纹树皮、月亮花制作的“满月精油”等材料，迅速布置了一个祭台。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零九章 刺激的夜晚",
+          "line": 55229,
+          "quote": "“呼，这种时候，没有非凡之力的呼救可比靠砰砰砰的模拟发音开枪有用多了……”克莱恩边感叹，边拿出一瓶安曼达纯露，滴了几滴在身上。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "精灵之泉",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百六十五章 墓志铭",
+          "line": 28723,
+          "quote": "“需要的材料包括：精灵之泉（苏尼亚岛金色泉）的泉水100毫升，星水晶50克，黄金半磅，燃素5克，赤铁矿30克……以及大量的活人鲜血。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十八章 污秽之语",
+          "line": 41463,
+          "quote": "“我要买‘精灵之泉’的髓质结晶，谁有？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "夜香草",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2555,
+          "quote": "“夜香草、深眠花、洋甘菊混合蒸馏和萃取出来的纯露，我叫它‘安曼达’，赫密斯语里宁静的意思，很好闻的。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5621,
+          "quote": "“‘占卜家’：100毫升纯水+13滴夜香草汁液+7片金薄荷叶子……”克莱恩默念着配方的内容，可后续的部分刚好被老尼尔手肘挡住，无法看到。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "深眠花",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十四章 通灵者",
+          "line": 2555,
+          "quote": "“夜香草、深眠花、洋甘菊混合蒸馏和萃取出来的纯露，我叫它‘安曼达’，赫密斯语里宁静的意思，很好闻的。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十一章 接地气的仪式魔法",
+          "line": 9165,
+          "quote": "“夜香草、深眠花等制作的蜡烛，象征黑夜。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "龙血",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5641,
+          "quote": "“9克龙血草粉末。”老尼尔不慌不忙地将手深入银制小箱，提起一个透明的试管，里面的粉末深黑如铁。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5667,
+          "quote": "“纯水+夜香草+金薄荷叶+毒堇汁+龙血草+拉瓦章鱼血液+星水晶=占卜家……”这个时候，克莱恩不由自主回想了一遍配方。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "银白战熊",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 审讯",
+          "line": 39709,
+          "quote": "“恐惧魔虫的眼睛一对，银白战熊的右掌。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 勇敢者酒吧",
+          "line": 40071,
+          "quote": "“是的，恐惧魔虫的眼睛和银白战熊的右掌，我都有。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "迷幻草",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十八章 收获",
+          "line": 43107,
+          "quote": "“辅助材料：纯水60毫升，迷雾树人的汁液30毫升，水形宝石粉末3克，迷幻草精油4滴。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百三十一章 一掷千金",
+          "line": 59015,
+          "quote": "“辅助材料：金色曼陀罗汁液5滴，黑色曼陀罗汁液5滴，迷幻草精油4滴，红葡萄酒80毫升。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "罗勒",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十七章 兄妹三人的晚餐",
+          "line": 4915,
+          "quote": "往“莴苣与肉类市场”，花费6便士买了1磅牛肉，7便士买了一大条肉质鲜嫩而少刺的塔索克鱼，另外，还有土豆、豌豆、白萝卜、大黄、莴苣、芜菁等食材和迷迭香、罗勒、孜然、油类等事物。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十七章 兄妹三人的晚餐",
+          "line": 4971,
+          "quote": "梅丽莎则看向了那份牛肉汤，绿色的罗勒叶子、青色的莴苣头和白色的萝卜块沉浸于无色汤水里，掩藏着炖软的牛肉，颜色清新，香味勾人。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "薄荷",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3273,
+          "quote": "听到克莱恩的问题，邓恩望了眼窗外通往“查尼斯门”的走廊，拿出自己的烟斗，塞入烟丝和薄荷叶，然后放到鼻端，深深嗅了一口，嗓音略有飘忽地感慨道：",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3275,
+          "quote": "“只有在家里，我才能肆无忌惮地享受烟草和薄荷叶混杂的美妙味道……克莱恩，你知道创世神话吧？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "面包",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 411,
+          "quote": "“克莱恩，你把剩下的面包都拿出来，今天记得买新的，还有肉和豌豆，你快参加面试了，我给你做豌豆炖羔羊肉。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 417,
+          "quote": "一人倒了两大杯，梅丽莎和周明瑞就着茶水，分享了两条黑麦面包。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "啤酒",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十一章 真正的厨艺",
+          "line": 1995,
+          "quote": "这个过程里，本该下点料酒，再不济也得用葡萄酒代替，然而莫雷蒂家没这些奢侈的东西，班森一周也才能喝一杯啤酒，克莱恩只好因陋就简，倒了些开水，随便弄弄。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 3055,
+          "quote": "“新面孔？”酒保边擦杯子边抬头看了他一眼，“黑麦啤酒1便士一杯，恩马特啤酒2便士，南威尔啤酒4便士，或者你想来一杯纯麦芽酿的朗齐？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "咖啡",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3345,
+          "quote": "，第二，被魔药里蕴含的力量瞬间改变人格，变得冷酷，敏感，易怒，残忍，漠视一切，第三嘛……”邓恩放下烟斗，拿起旁边的瓷杯，抿了一口道，“帕斯河谷的费尔默咖啡，很苦但也很香，回味很棒，要来一杯吗？”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十八章 起源和原因",
+          "line": 3347,
+          "quote": "“我更喜欢费内波特的高原咖啡，当然，我只在韦尔奇家喝过几次。”克莱恩礼貌拒绝，“第三是什么？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "茶叶",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三章 梅丽莎",
+          "line": 415,
+          "quote": "水快开之前，她打开橱柜底层抽屉，宝贝般拿出一罐劣等茶叶，洒了十来片进壶里，假装那是真正的茶水。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第三十三章 “开关”",
+          "line": 6009,
+          "quote": "又敲两下，退出灵视，他轻松走到一楼，烧了壶水，放了点劣质茶叶，就着它和少许奶油，啃掉了一条黑麦面包。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "金镑",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 473,
+          "quote": "位于货币顶端的是金镑，同样属于纸币，但以黄金作保障，并直接挂钩，一金镑等于二十苏勒，有一、五、十这三种面值。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 579,
+          "quote": "这不是奢望，廷根大学哪怕实习期的讲师，周薪也能有2金镑，转正后是3金镑10苏勒，要知道，克莱恩的哥哥班森，工作了好些年，周薪也才1镑10苏勒，工厂的普通工人甚至不到1镑或刚出头一点，而那样一座独栋房屋的租",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "苏勒",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 469,
+          "quote": "这就是班森目前所有的积蓄，甚至包含这三天的生活费，其中只得两张五苏勒的纸币，其余都是一苏勒的。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 471,
+          "quote": "在鲁恩王国的货币体系里，苏勒位于第二层，来源于古代的银币，一苏勒等于十二铜便士，有一和五两种面值。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "便士",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 201,
+          "quote": "周明瑞知道这是鲁恩王国最基础的货币，叫做铜便士，1便士实际购买力大概相当于自己穿越前的三四块钱，这种硬币的币值还有5便士、半便士和四分之一便士三种，但依旧不够精细，在日常生活里，还是时不时得凑整来",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 203,
+          "quote": "让手中这枚国王乔治三世登基时才发行的铜便士在指尖翻动了几圈后，周明瑞捻着它，塞入了瓦斯计费器竖直张开的细长“嘴巴”里。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "煤气灯",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 179,
+          "quote": "这是当前主流的煤气灯，焰火稳定，照明效果极佳。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二章 情况",
+          "line": 181,
+          "quote": "本来以克莱恩·莫雷蒂的家庭情况，别说煤气灯，连煤油灯都不该奢望，使用蜡烛才是符合身份和地位的表现，但四年前，他熬夜读书，为霍伊大学入学考试而奋斗时，哥哥班森认为这是关系家庭未来的重要事情，哪怕",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "左轮手枪",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一章 绯红",
+          "line": 57,
+          "quote": "墨水瓶之前，笔记本右侧，一根肚腹圆润的深色钢笔静静安放，笔尖闪烁着微光，笔帽搁于一把泛着黄铜色泽的左轮手枪旁边。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一章 绯红",
+          "line": 61,
+          "quote": "惊愕茫然的同时，他发现书桌、笔记本、墨水瓶、左轮手枪都蒙着一层绯红的“轻纱”，那是窗外照进来的光辉。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "猎魔子弹",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十章 健忘的邓恩",
+          "line": 3615,
+          "quote": "“你去老尼尔那里的时候，记得领取十发‘猎魔子弹’。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十章 健忘的邓恩",
+          "line": 3617,
+          "quote": "“我？猎魔子弹？”克莱恩惊讶反问。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "塔罗牌",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 635,
+          "quote": "而地球的塔罗牌就属于一种算命扑克，只是多了些各有象征符号的“图形牌”。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四章 占卜",
+          "line": 657,
+          "quote": "想到这里，周明瑞就有心看一看这里的塔罗牌究竟长什么样，于是对那位头戴尖帽、脸涂油彩的女子点头道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "铜哨",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百七十章 铜哨",
+          "line": 29493,
+          "quote": "### 第一百七十章 铜哨",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百七十章 铜哨",
+          "line": 29679,
+          "quote": "这是一个精致的、古旧的铜哨，上面有许多让它充满神秘韵味的奇特花纹。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "罗塞尔日记",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十九章 罗塞尔的初始",
+          "line": 10563,
+          "quote": "“更多的罗塞尔日记，或者……”克莱恩停了一下。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七十七章 残留物",
+          "line": 13627,
+          "quote": "——在看了之前搜集到的罗塞尔日记后，克莱恩对本身的一些想法做了改进：精通神秘学知识，找到回家的办法，是他不变的追求，而进一步提高本身力量，以便更安全地撬动灰雾之上的神秘空间，从而借助",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "灵摆",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十九章 “职业”和住房都是严肃的事情",
+          "line": 5189,
+          "quote": "“你的问题不够准确，应该是服用了‘占卜家’魔药会获得什么能力？”邓恩·史密斯摇头一笑，灰眸与面孔都背对着红月，藏在了阴影里，“占星术、卡牌占卜、灵摆、灵视以及类似的很多很多东西，当然，不是说你服下魔药，就立刻了解并掌握了它们，魔药只是让你具备学习这些的资格和能力。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四十章 神秘学课程",
+          "line": 7163,
+          "quote": "“这是占卜里的垂摆法，又叫灵摆法，依靠本身星灵体与灵界、星空的联系，借助一些自然材质与灵性的沟通，比如水晶、宝石和特殊金属，来占卜事物的好坏……让我们回到刚才那两杯咖啡，逆时针摆动",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "银制小刀",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5665,
+          "quote": "“这是制作占卜水晶的上佳材料……稍微少一点，考虑误差。”老尼尔边称量边用有花纹的银制小刀切取着。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十一章 接地气的仪式魔法",
+          "line": 9191,
+          "quote": "他又相继取出调制的“满月精油”，以及一个铭刻有黑暗圣徽的大釜，一把有华丽花纹的银制小刀，一杯清水，一碟粗盐。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "蜡烛",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二章 情况",
+          "line": 181,
+          "quote": "本来以克莱恩·莫雷蒂的家庭情况，别说煤气灯，连煤油灯都不该奢望，使用蜡烛才是符合身份和地位的表现，但四年前，他熬夜读书，为霍伊大学入学考试而奋斗时，哥哥班森认为这是关系家庭未来的重要事情，哪怕借债也要为他创造良好的条件。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五章 仪式",
+          "line": 675,
+          "quote": "头戴尖帽的女子一点不受影响，黑色长裙飘荡在水上般绕过桌子，坐到对面，点燃了蜡烛。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "精油",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十一章 魔药",
+          "line": 5629,
+          "quote": "“13滴夜香草汁液，这个可以先萃取制作成精油保存。”老尼尔从银制箱子里拿出一个棕色小瓶，借助滴管，动作轻松地往大铁锅内滴了13滴。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十一章 接地气的仪式魔法",
+          "line": 9191,
+          "quote": "他又相继取出调制的“满月精油”，以及一个铭刻有黑暗圣徽的大釜，一把有华丽花纹的银制小刀，一杯清水，一碟粗盐。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "望远镜",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八章 新的时代",
+          "line": 1301,
+          "quote": "摆放蜡烛的书桌上有一瓶墨水，一根羽毛笔，一架黑色的金属望远镜，以及一个黄铜制成的六分仪。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二十二章 红骷髅海盗团",
+          "line": 87227,
+          "quote": "“他们有望远镜吗？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "航海图",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第一百六十七章 狂暴海的灵界",
+          "line": 149933,
+          "quote": "也就是说，由于狂暴海与对应灵界互相影响，彼此重叠，克莱恩可以直接参考当地航海图册，在灵界的天灾里穿行。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "船票",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十八章 污秽之语",
+          "line": 41471,
+          "quote": "“也许你可以订船票去苏尼亚岛。”“智慧之眼”老先生微笑打趣了一句。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百九十四章 真眷者",
+          "line": 70149,
+          "quote": "佛尔思·沃尔一早就乘坐蒸汽列车抵达了这个王国最大也是最重要的港口，并预订好了返回的内河航运船票——这相对便宜不少。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "手套",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十五章 重返",
+          "line": 8245,
+          "quote": "邓恩伸出戴上黑手套的右手，缓慢推开了房门，当先映入众人眼帘的是一个壁炉，在七月初的天气里，里面有不正常的闷热弥漫。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第四十六章 画像",
+          "line": 8277,
+          "quote": "他将锡铁小壶的瓶口塞好，放入口袋里，转身走向了那具高度腐烂的老妇人尸体，在没戴手套的情况下，直接开始了检查，而邓恩·史密斯和伦纳德·米切尔正绕着房间漫步，时不时触碰一下桌面和报刊。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "面具",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百三十章 贝克兰德的隐秘聚会",
+          "line": 23249,
+          "quote": "吱呀一声，正门缓缓敞开，进入观众状态的奥黛丽看见里面散乱地坐着不少人，他们有的用各种方式遮掩着本身的容貌，比如依靠兜帽和面具，有的则毫不在乎，坦然裸露着五官。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 审讯",
+          "line": 39723,
+          "quote": "里面等待着一位戴白色硬壳面具的男子，他望着两位披宽松长袍不知性别的求助者，轻声笑道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "绷带",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百一十一章 葬礼",
+          "line": 36391,
+          "quote": "哒，哒，哒，脚步声回荡在走廊内，右臂包扎着白色绷带的西迦·特昂出现于看守室的门口。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十七章 招揽",
+          "line": 86343,
+          "quote": "他看见酒保眼神惶恐地站在一个胖子的身旁，额头包着厚厚的白绷带，鼻孔塞着软纸，脸上多是淤青。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "药剂",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十九章 占卜术",
+          "line": 8871,
+          "quote": "“一场很严重的疾病，之前甚至转成了肺炎，如果不是我妻子刚好遇上一位厉害的药师，给了我一些神奇的药剂，你恐怕得到墓园才能看见我。”格拉西斯的语气里满是后怕和庆幸。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十二章 “占卜家”的建议",
+          "line": 10981,
+          "quote": "“是的，我当时真的非常后悔，后悔自己没听您的建议，还好，还好我家附近有位非常厉害的药师，他给了我妻子相当神奇的药剂，这让我远离了死亡。”格拉西斯感慨道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "毒药",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百零六章 “2”级封印物",
+          "line": 35553,
+          "quote": "“2-030”的名称是“永不枯竭的毒药”，来源于一位突然发疯、序列名称未知的非凡者，他割掉自己的手腕自杀，让身体内的血液流入了一个不大的普通银杯，可是，当他流光血液后，银杯却没有装满，里面",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零六章 “2”级封印物",
+          "line": 35557,
+          "quote": "邓恩称，圣堂的研究人员怀疑高序列强者都会因此而死亡，但问题在于，高序列强者们几乎不会被那杯毒药诱惑，且因为“2-030”特征明显，没可能误服，要想毒死他们，必须先抓捕他们，牢牢控制住，强行灌下去，但，为什么要这样麻烦呢？",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "魔药配方",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1015,
+          "quote": "“我手上其实有两份序列9的魔药配方。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六章 非凡者",
+          "line": 1019,
+          "quote": "“真的？是哪两份？”奥黛丽明显很清楚序列9的魔药配方代表着什么。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "仪式材料",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百零五章 通灵",
+          "line": 18763,
+          "quote": "“我去地下交易市场购买仪式材料时，忽然想到赛琳娜曾经到过恶龙酒吧，而且是海纳斯·凡森特引她进入的，这就表明海纳斯属于那里的常客，所以，我怀疑画像上的先生，与海纳斯有一定关系的先生，",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百七十二章 “尸检”",
+          "line": 30041,
+          "quote": "望了眼“自己”的作品，克莱恩收拾好仪式材料，解除了灵性之墙。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "圣物",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百四十八章 信使",
+          "line": 25837,
+          "quote": "“是的，在女神的圣物面前，以祂的名义立誓，这拥有足够的约束力，相信我，你绝对不想知道违背的后果，我现在只能和你这种同样掌握着扮演法的人聊一聊，你本身的状态在你回答之前就已",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百五十九章 “赐予”与“献祭”",
+          "line": 27765,
+          "quote": "“……之前翻值夜者内部资料，看到过女神赐予信徒圣物的记载，嗯，不少涉及邪神和恶魔的祭祀仪式里，也有物品降临的描述……这是不是意味着，我能在回应祈求的时候，‘赐予’对方物品，以此完成材料的给付……”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "银币",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 471,
+          "quote": "在鲁恩王国的货币体系里，苏勒位于第二层，来源于古代的银币，一苏勒等于十二铜便士，有一和五两种面值。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十八章 审问“白鲨”",
+          "line": 86529,
+          "quote": "“自称为‘黎明号’主人服务的‘银币毒蛇’奥德尔，以及‘血之上将’的情报官老奎因，他们是一起出现的，我无法确认他们是否在合作，当然，奥德尔一直都只是宣称。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "0-08",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3513,
+          "quote": "“因斯·赞格威尔，男，四十岁，前大主教，晋升失败的‘看门人’，被魔鬼引诱，堕落成恶，带着封印物‘0-08’潜逃，具体特征是……”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十九章 封印物",
+          "line": 3519,
+          "quote": "“所以是最高保密等级，对‘0-08’封印物的搜索传达，都是口头讲述，不写成文字，而且只有它的一点情况。”邓恩叹息道，“‘0-08’的外形是一支常见的羽毛笔，但不需要墨水也能书写，就这么",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "1-42",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二百零六章 心愿",
+          "line": 72273,
+          "quote": "“是的，上次那只恶魔犬被找到被围住，它的作用至关重要。”艾辛格坦然回应道，“它的代号是‘1-42’。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百零六章 心愿",
+          "line": 72275,
+          "quote": "“1-42”？“1”级封印物，高度危险，可有限利用，即使贝克兰德教区，也只能保存一到两件……克莱恩脑海内瞬间闪过了相应的描述，颇感兴趣地问道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "2-049",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第五十三章 倾听者",
+          "line": 9547,
+          "quote": "“不过，无论怎么样，我们也算找到了那本笔记的下落，而这是属于你的功劳，当然，那还需要进一步的确认，我已经向贝克兰德教区发去电报，请求他们派人护送2-049号封印物过来，那是曾经属于安提哥努斯家族的一件危险物品，它能帮助我们知道瑞尔·比伯是不是安提哥努斯家族的后裔。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十七章 梳理和总结",
+          "line": 10227,
+          "quote": "“一个有趣的问题，能留下那样的笔记，留下2-049号封印物，说明安提哥努斯家族掌握了相当强大的非凡力量，那么，他们手中的序列途径是哪条？完整，还是不完整？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "codenames": [
+    {
+      "name": "愚者",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1087,
+          "quote": "“你们可以称呼我，愚者。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1095,
+          "quote": "“尊敬的愚者先生，请允许我冒昧恳求，您可以做我们交易的见证吗？”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "魔术师",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十章 夜思",
+          "line": 43495,
+          "quote": "多参加各种非凡聚会，以及通过“正义”小姐、“倒吊人”先生和“太阳”同学搜集“魔术师”对应的非凡材料，有“无面人”的也不拒绝，另外，尽量弄一件负面效应不严重的神奇物品，在消化完成，实力提升前，多点自保之力……除此之外，投资，接委托，攒",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十五章 墓园和医院",
+          "line": 46075,
+          "quote": "只要能得到一件有特殊效果的武器，他就可以获得“魔术师”的主材料之一！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "皇后",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十七章 审讯",
+          "line": 39675,
+          "quote": "皇后区，一栋不起眼的房屋内。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十七章 记者",
+          "line": 46321,
+          "quote": "——贝克兰德警察厅的总部在皇后区边缘的西维拉斯街，所以，他们又被昵称为“西维拉斯场”。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "皇帝",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十章 健忘的邓恩",
+          "line": 3759,
+          "quote": "“我已经解读出了其中几个符号，确认那是数字的表达，看看，我发现了什么，这其实是一本日记！嗯，我希望用当时不同日期的历史事件，尤其皇帝身边的事件，与日记对应那天的记载做比较，从而解读出更多的符号。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第六十章 第二块“亵渎石板”",
+          "line": 10629,
+          "quote": "“那个时候，安提哥努斯、阿蒙、亚伯拉罕、雅各等古老的名字闪耀于人类的国度，但四皇之战后，图铎帝国的血皇帝陨落，他们跌下顶峰，被如今的七神所追杀。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "教皇",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十二章 见面",
+          "line": 90931,
+          "quote": "“倒吊人”隐藏在解读里的内容非常简单，“教皇”牌的意思是，他想将“烈焰”达尼兹和“钢铁”麦维提的事情通报给风暴教会，借助“代罚者”的力量分割敌人，坐收渔利。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百一十二章 “世界”的委托",
+          "line": 102441,
+          "quote": "生的意思是风暴教会将班西港抹平了？真是他们的风格啊，这样也好，不用担心那里的无辜者被污染了……不知道天使之王梅迪奇有没有出现，有没有逃走，风暴教会那位教皇有没有亲临现场，有没有动用“0”封印物……“正义”奥黛丽松了口气，眼眸晶亮地开口道：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "力量",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1123,
+          "quote": "“愚者先生，您不觉得这种‘聚会’很有意思吗？虽然您的力量超越了我们的想象，但世界上总有您不了解不擅长的领域，对面那位明显是出身高贵的小姐，我也有着独属于自己的经验、见识、渠道和资源，我和她也许能在未来某些时",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1125,
+          "quote": "在他看来，自己既然会毫无防备毫无反抗力量地被拉入这里，那就表示主动权在神秘的愚者先生手上，不是想拒绝想之后不再参与“聚会”，就一定能成功的，所以，还不如更深更好地挖掘这次遭遇的好处，用收获弥",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "隐者",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十三章 窥秘之眼",
+          "line": 97709,
+          "quote": "“如果没有别的办法，我或许真要脱离安全航道，进入那片神战废墟衍化的海洋，以寻找美人鱼的歌声，到时候，畏惧‘愚者’，能在一定程度上被我掌控的‘隐者’明显比冰山中将艾德雯娜他们这些合作者可靠，借用她的船只更加安全……嗯，‘倒吊人’先生是备选方案。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第八十四章 衣物细节",
+          "line": 97817,
+          "quote": "他正待为大家介绍“隐者”女士，并为“隐者”女士介绍大家，却发现“正义”小姐毫不停留，目光转向了另外一侧：",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "命运之轮",
+      "verified": true,
+      "mentions": 1,
+      "citations": [
+        {
+          "chapter": "第六十三章 馈赠总是要归还",
+          "line": 167231,
+          "quote": "生命学派的议长？祂也成为了“愚者”先生的眷者？对应塔罗牌是，“命运之轮”？伦纳德眼睛略有睁大，愈发觉得“愚者”先生的势力已经堪比七大正神教会，深得无法测量。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "正义",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第十三章 值夜者",
+          "line": 2283,
+          "quote": "值夜者？“正义”和“倒吊人”提过的黑夜女神教会非凡者队伍代号？克莱恩有所恍然，再联想之前，顿时脱口而出道：",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第十六章 狗拿耗子",
+          "line": 2925,
+          "quote": "光靠“聚会”是办不到的，魔药配方问题不大，可对应的材料从哪里寻找，怎么获取，如何调制，以及非凡者日常修行的常识，自己都存在严重的障碍，不可能事事都问“正义”和“倒吊人”，物物都找他们换取，这不仅会损害“愚者”的形象，让对方怀疑，而且还没那么多的时间交流如此细碎的问题，同样的，自身也拿不出什么他们感兴",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "倒吊人",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1189,
+          "quote": "“倒吊人先生，可以把刚才的地址再说一遍吗？我怕自己的记忆不够深刻。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1205,
+          "quote": "周明瑞只是微笑，并不开口，将目光投向了“倒吊人”，一副考一考你的模样。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "死神",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百六十一章 倒立的陵寝",
+          "line": 28115,
+          "quote": "难道阿兹克先生是死神的后裔，或者说，他能获得这么漫长的生命，是因为与死神进行了某种交易？",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十一章 倒立的陵寝",
+          "line": 28117,
+          "quote": "根据《夜之启示录》相应篇章和值夜者的内部资料记载，死神是邪恶的神灵，曾经在第四纪尾声于北大陆掀起过一场浩劫，那段时光被称为“苍白年代”。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "节制",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第三十三章 “开关”",
+          "line": 5931,
+          "quote": "少许幻觉等症状，而且灵视状态下，你很容易对陌生的环境感觉不舒服，也很容易被别人的情绪影响，这都是需要注意的事项，必须通过反复的练习来适应和排除，另外，节制使用，及时结束。”老尼尔微笑回答。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第五十二章 观众",
+          "line": 9419,
+          "quote": "“不要贪心，举行仪式魔法时尤其不能贪心，节制是每一位窥秘人活得足够久的关键要素。”老尼尔轻松愉快地解释道。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "恶魔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第二十章 健忘的邓恩",
+          "line": 3699,
+          "quote": "“是的。”奥利安娜太太沉重点头，“他之前杀的人还有很多，那次之所以被抓到，是因为他在准备一个恶魔仪式。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百八十章 聪明人总是想太多",
+          "line": 31241,
+          "quote": "而“太阳”的回答没有让她失望，他们信仰的既不是主流的七位正统神灵，也不是南大陆的死神，更加不是“倒吊人”告诉过她的隐秘存在和邪神恶魔，比如原初魔女，隐匿贤者，宇宙暗面，被缚之神，真实造物主。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "塔",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四章 占卜",
+          "line": 639,
+          "quote": "它并非来源于七位正统神灵，也不是古代遗留，而是在一百七十多年前，由时任因蒂斯共和国执政官的罗塞尔·古斯塔夫发明。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1163,
+          "quote": "“您是愚者先生，来自塔罗牌，那作为一个定期的、长期的、隐秘的‘聚会’，称号得尽量一致，嗯，我也从塔罗牌里挑吧。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "星星",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第四十七章 怪异的雕像",
+          "line": 44725,
+          "quote": "一眼望去，克莱恩就像是看见了黑夜，看见了星星。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百三十七章 分钱",
+          "line": 77851,
+          "quote": "睁眼看见黄水晶吊坠在做顺时针转动，克莱恩松了口气，将意念传递给了象征“倒吊人”的那个深红星星。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "月亮",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第一百五十一章 克莱恩的请求",
+          "line": 26413,
+          "quote": "“没有月亮的夜晚，废弃千年的古堡，阴冷森然的环境，再加上只有两个人的考古队，这就是标准的灵异小说开头啊。”",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第二百二十七章 天使家族",
+          "line": 76039,
+          "quote": "“交流‘月亮’这张牌的时候，我想到了查拉图提过的一件事情，他说生命学派崇拜月亮，而不是更进一步的‘黑夜女神’，对，后面半句是我加的！",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "太阳",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1267,
+          "quote": "克莱恩愣了几秒，突地失笑，边手按太阳穴，边低声自嘲道：",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百零九章 推理",
+          "line": 19511,
+          "quote": "“太阳刚刚升起，接下来轮到我了。”沉静的“作家”西迦·特昂女士在六点的样子进入值守室。",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "审判",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第八十四章 满月的呓语",
+          "line": 50823,
+          "quote": "难道刚才的呓语和“门”先生有关？嗯……今天是血月之夜，属于满月的加强版……这位女士对应的是“门”，之前那位休小姐座位背后的象征符号则类似于“审判之剑”……克莱恩微不可见地点了下头。",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第一百六十八章 猜测",
+          "line": 65743,
+          "quote": "他们的特征就是在目标身上洒满塔罗牌。”那位成熟英俊的中年男士笑笑道，“而塔罗牌不同的呈现方式似乎表达着不同的意思……这具尸体的脸上只盖了两张牌，一张‘审判’，一张‘皇帝’，‘审判’是动机和目的，而‘皇帝’则是刚才那位的组织代号？当然，这还可能是一种仪式。”",
+          "source": "novel-local-reference"
+        }
+      ]
+    },
+    {
+      "name": "世界",
+      "verified": true,
+      "mentions": 2,
+      "citations": [
+        {
+          "chapter": "第七章 代号",
+          "line": 1123,
+          "quote": "“愚者先生，您不觉得这种‘聚会’很有意思吗？虽然您的力量超越了我们的想象，但世界上总有您不了解不擅长的领域，对面那位明显是出身高贵的小姐，我也有着独属于自己的经验、见识、渠道和资源，我和她也许能在未来某些时候，帮您完成不方便自己做",
+          "source": "novel-local-reference"
+        },
+        {
+          "chapter": "第七章 代号",
+          "line": 1139,
+          "quote": "果然，不管哪个世界，都没有只存在好处的事情……周明瑞再次伸出右手，用指头轻敲着长桌边缘。",
+          "source": "novel-local-reference"
+        }
+      ]
+    }
+  ],
+  "unverified": {
+    "figures": [
+      "休·德弗罗",
+      "娜亚"
+    ],
+    "factions": [
+      "风暴教会审判庭"
+    ],
+    "places": [
+      "夜色镇",
+      "罗塞尔纪念宫",
+      "智慧教堂",
+      "战神教堂",
+      "永恒烈阳教堂",
+      "康斯顿港",
+      "黄金之城"
+    ],
+    "events": [
+      "净除",
+      "海难",
+      "拍卖会"
+    ],
+    "items": [
+      "金色肉瘤",
+      "黑渊魔鱼血液",
+      "千年古树心",
+      "白色太阳花",
+      "巨人血液",
+      "迷失香",
+      "鸦片",
+      "青铜门",
+      "阿罗德斯镜",
+      "占卜棒",
+      "航海日记",
+      "契约书"
+    ],
+    "codenames": [
+      "女祭司",
+      "恋人",
+      "战车"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# Named Cloudflare Tunnel template.
+# 1) cloudflared tunnel login
+# 2) cloudflared tunnel create sequence-log
+# 3) replace the UUID and credentials path below
+# 4) cloudflared tunnel route dns sequence-log sequence.example.com
+# 5) cloudflared tunnel --config cloudflared.yml run sequence-log
+
+tunnel: sequence-log
+credentials-file: C:\Users\Administrator\.cloudflared\<TUNNEL-UUID>.json
+
+ingress:
+  - hostname: sequence.example.com
+    service: http://127.0.0.1:3000
+  - service: http_status:404

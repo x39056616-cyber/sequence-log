@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080d0f;
+  --foreground: #e6dfc9;
+  --panel: rgba(14, 23, 24, 0.9);
+  --panel-solid: #101a1b;
+  --panel-soft: #152122;
+  --border: rgba(190, 167, 111, 0.24);
+  --muted: #8e9a91;
+  --muted-strong: #b6b8a8;
+  --brass: #b49a5e;
+  --brass-bright: #d6bd7d;
+  --moss: #72947f;
+  --blood: #9f5149;
+  --cyan: #7faaa7;
+  --success: #779b78;
+  --warning: #c19a55;
+  --danger: #bd635c;
+}
+
+.light {
+  --background: #ede5d2;
+  --foreground: #1f2929;
+  --panel: rgba(250, 245, 230, 0.92);
+  --panel-solid: #f8f1df;
+  --panel-soft: #e8dfca;
+  --border: rgba(73, 63, 43, 0.23);
+  --muted: #68716c;
+  --muted-strong: #47514d;
+  --brass: #7f6736;
+  --brass-bright: #5e4a24;
+  --moss: #4f705b;
+  --blood: #7d3d3a;
+  --cyan: #3f716f;
+  --success: #547b56;
+  --warning: #8f6b2e;
+  --danger: #a4443e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-panel-solid: var(--panel-solid);
+  --color-panel-soft: var(--panel-soft);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-brass: var(--brass);
+  --color-brass-bright: var(--brass-bright);
+  --color-moss: var(--moss);
+  --color-blood: var(--blood);
+  --color-cyan: var(--cyan);
+  --font-sans: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--background); }
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 78% -10%, rgba(126, 151, 130, 0.15), transparent 35rem),
+    radial-gradient(circle at 5% 30%, rgba(180, 154, 94, 0.09), transparent 30rem),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(188, 165, 108, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(188, 165, 108, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black, transparent 80%);
+}
+::selection { background: rgba(180, 154, 94, 0.35); }
+.panel {
+  border: 1px solid var(--border);
+  background: linear-gradient(145deg, rgba(255,255,255,0.025), transparent 35%), var(--panel);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22), inset 0 1px rgba(255,255,255,0.035);
+  backdrop-filter: blur(14px);
+}
+.panel-soft { border: 1px solid var(--border); background: color-mix(in srgb, var(--panel-soft) 82%, transparent); }
+.serif { font-family: var(--font-serif); }
+.text-muted { color: var(--muted); }
+.gold-text { color: var(--brass-bright); }
+.rune-corner { position: relative; }
+.rune-corner::before, .rune-corner::after { content: ""; position: absolute; width: 16px; height: 16px; border-color: color-mix(in srgb, var(--brass) 65%, transparent); pointer-events: none; }
+.rune-corner::before { top: 7px; left: 7px; border-top: 1px solid; border-left: 1px solid; }
+.rune-corner::after { right: 7px; bottom: 7px; border-right: 1px solid; border-bottom: 1px solid; }
+.progress-track { height: 0.62rem; overflow: hidden; border: 1px solid var(--border); background: rgba(0,0,0,0.28); border-radius: 999px; }
+.progress-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--moss), var(--brass-bright)); box-shadow: 0 0 18px rgba(180, 154, 94, 0.28); transition: width 500ms cubic-bezier(.2,.8,.2,1); }
+button, a, input, textarea, select { outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--brass-bright); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+
+/* Tarot card system */
+.tarot-choice {
+  border-radius: 14px;
+  transition: transform 360ms cubic-bezier(.2,.8,.2,1), filter 360ms ease;
+}
+.tarot-choice svg {
+  filter: drop-shadow(0 18px 24px rgba(0, 0, 0, .34));
+  transition: transform 420ms cubic-bezier(.2,.8,.2,1), filter 420ms ease;
+}
+.tarot-choice:hover { transform: translateY(-6px); }
+.tarot-choice:hover svg { filter: drop-shadow(0 24px 28px rgba(0, 0, 0, .48)) saturate(1.08); }
+.tarot-choice.is-selected { transform: translateY(-8px); }
+.tarot-choice.is-selected svg { filter: drop-shadow(0 0 16px rgba(214, 189, 125, .48)) drop-shadow(0 26px 32px rgba(0, 0, 0, .52)); }
+.tarot-choice.is-selected::after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 1px solid rgba(214, 189, 125, .75);
+  border-radius: 17px;
+  box-shadow: inset 0 0 30px rgba(214, 189, 125, .08);
+  pointer-events: none;
+}
+.tarot-choice-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: .6rem .35rem 0;
+}
+@media (max-width: 640px) {
+  .tarot-choice-caption { flex-direction: column; align-items: flex-start; gap: .08rem; }
+}
+
+.tarot-choice::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 16px;
+  background: linear-gradient(115deg, transparent 18%, rgba(255,255,255,.12) 44%, transparent 58%);
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: opacity 360ms ease, transform 600ms cubic-bezier(.2,.8,.2,1);
+  pointer-events: none;
+}
+.tarot-choice:hover::before,
+.tarot-choice.is-selected::before { opacity: .75; transform: translateX(16%); }
+
+/* Rider-Waite card treatment */
+.rws-card {
+  border: 1px solid rgba(185, 165, 111, .62);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px rgba(255, 244, 207, .12), 0 18px 24px rgba(0, 0, 0, .34);
+}
+.rws-card img { display: block; }
+.rws-card-ink { background: linear-gradient(115deg, rgba(255, 230, 155, .1), transparent 26%, rgba(0, 0, 0, .08) 65%, rgba(255, 230, 155, .07)); mix-blend-mode: screen; }
+.rws-card::after { content: ""; position: absolute; inset: 5px; border: 1px solid rgba(255, 240, 190, .3); border-radius: 6px; pointer-events: none; }
+.tarot-choice:hover .rws-card { transform: translateY(-6px); filter: saturate(1.08) contrast(1.04); }
+.tarot-choice.is-selected .rws-card { transform: translateY(-8px); filter: saturate(1.12) contrast(1.06) drop-shadow(0 0 14px rgba(214, 189, 125, .46)); }
