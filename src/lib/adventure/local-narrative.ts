@@ -2,6 +2,7 @@ import type { StoryInputMode, TurnOperation, WorldState } from "@/lib/types";
 import type { TurnAdjudication } from "@/lib/ai/turn-schema";
 import { localOperationsFromInput, type WorldSnapshot } from "@/lib/adventure/state";
 import { uid } from "@/lib/utils";
+import { resolveChapterTitle, type ChapterTitlePhase } from "@/lib/adventure/chapter-title";
 
 export function localChapter(input: { userInput: string; mode: StoryInputMode; worldState: WorldState; sequenceName: string; pathwayName: string; goal?: string }) {
   const intent = input.userInput.trim() || "继续观察眼前的局势";
@@ -25,9 +26,10 @@ export function localChapter(input: { userInput: string; mode: StoryInputMode; w
   return text;
 }
 
-export function localAdjudication(input: string, snapshot: WorldSnapshot): TurnAdjudication {
+export function localAdjudication(input: string, snapshot: WorldSnapshot, phase: ChapterTitlePhase = "turn"): TurnAdjudication {
   const operations: TurnOperation[] = localOperationsFromInput(input, snapshot);
   return {
+    chapterTitle: resolveChapterTitle("", { phase, userInput: input, location: snapshot.worldState.location }),
     operations: operations as never,
     suggestedChoices: [
       { id: uid(), label: "继续追问", description: "沿着刚刚出现的线索继续调查，确认它是否可信。" },
@@ -37,6 +39,8 @@ export function localAdjudication(input: string, snapshot: WorldSnapshot): TurnA
     summaryDelta: "用户采取行动：" + input.slice(0, 120),
   };
 }
+
+
 
 
 

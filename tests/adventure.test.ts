@@ -2,6 +2,7 @@ import { beforeEach, describe, expect, it } from "vitest";
 import { db, ensureSeed } from "@/lib/db";
 import { buildAIContext, detectSensitiveInput, sanitizeText } from "@/lib/adventure/privacy";
 import { localChapter } from "@/lib/adventure/local-narrative";
+import { normalizeChapterTitle, resolveChapterTitle, uniqueChapterTitle } from "@/lib/adventure/chapter-title";
 import { turnAdjudicationSchema } from "@/lib/ai/turn-schema";
 import { planAdventure } from "@/lib/adventure/planner";
 import { applyTurnOperations, createInitialWorldState } from "@/lib/adventure/state";
@@ -26,6 +27,11 @@ describe("immersive adventure pipeline", () => {
   it("detects sensitive freeform input and rejects malformed adjudication", () => {
     expect(detectSensitiveInput("联系 test@example.com")).toBe(true);
     expect(turnAdjudicationSchema.safeParse({ operations: [{ type: "adjust_flag", key: "x", label: "x", delta: 99 }], suggestedChoices: [] }).success).toBe(false);
+  });
+  it("normalizes and deduplicates generated chapter titles", () => {
+    expect(normalizeChapterTitle("第3章：雾中的灯")).toBe("雾中的灯");
+    expect(resolveChapterTitle("", { phase: "opening", userInput: "", location: "" }).length).toBeGreaterThanOrEqual(2);
+    expect(uniqueChapterTitle("雾中的灯", ["雾中的灯"])).not.toBe("雾中的灯");
   });
   it("creates a long local chapter when no AI key exists", () => {
     const text = localChapter({ userInput: "我走进教堂", mode: "action", worldState: createInitialWorldState("thread"), sequenceName: "占卜家", pathwayName: "愚者" });
@@ -101,5 +107,6 @@ describe("immersive adventure pipeline", () => {
     expect(await db.quests.count()).toBe(before);
   });
 });
+
 
 

@@ -29,7 +29,9 @@ export function TimelineTree({ threads, checkpoints, turns, events, currentThrea
   function ThreadNode({ thread, depth }: { thread: StoryThread; depth: number }) {
     const event = events.find((item) => item.id === thread.eventId);
     const threadCheckpoints = checkpoints.filter((checkpoint) => checkpoint.threadId === thread.id).sort((a, b) => a.createdAt.localeCompare(b.createdAt));
-    const turnCount = turns.filter((turn) => turn.threadId === thread.id).length;
+    const threadTurns = turns.filter((turn) => turn.threadId === thread.id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+    const turnCount = threadTurns.length;
+    const latestTitle = threadTurns[0]?.chapterTitle;
     return (
       <div style={{ marginLeft: depth * 16 }} className="space-y-2">
         <button
@@ -42,6 +44,7 @@ export function TimelineTree({ threads, checkpoints, turns, events, currentThrea
             <Badge>{thread.status}</Badge>
           </div>
           <p className="serif mt-2 text-sm">{thread.title}</p>
+          {latestTitle&&<p className="mt-1 text-[11px] text-brass-bright">最近章节：{latestTitle}</p>}
           <p className="mt-1 line-clamp-2 text-[11px] text-muted">{event?.opening}</p>
           <p className="mt-2 text-[10px] text-muted">回合 {turnCount} · 存档点 {threadCheckpoints.length}</p>
         </button>
@@ -66,3 +69,4 @@ export function TimelineTree({ threads, checkpoints, turns, events, currentThrea
     </div>
   );
 }
+

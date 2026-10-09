@@ -7,6 +7,7 @@ import { planAdventure } from "@/lib/adventure/planner";
 import { calculateDigestionCap } from "@/lib/domain/digestion";
 import { localDay } from "@/lib/domain/time";
 import { buildRollingSummary, shouldPersistSummary } from "@/lib/adventure/summary";
+import { resolveChapterTitle, uniqueChapterTitle } from "@/lib/adventure/chapter-title";
 import { branchFromCheckpoint, commitStoryTurn, createStoryCheckpoint, getActiveCharacterBackground, getActiveFateProfile, getStoryContext, recordAIRequest, saveAdventureEvent, saveSceneAsset, saveStorySummary } from "@/lib/repository";
 import type { AdventureEvent, BackgroundFields, Quest, QuestCompletion, SceneAsset, StoryActor, StoryFlag, StoryInputMode, StoryItem, StoryThread, StoryTurn, TaskProposal, TurnOperation, WorldState } from "@/lib/types";
 import { uid } from "@/lib/utils";
@@ -52,6 +53,7 @@ export async function generateScene(event: AdventureEvent) {
 }
 
 interface TurnStatePayload {
+  chapterTitle?: string;
   worldState: WorldState;
   flags: StoryFlag[];
   actors: StoryActor[];
@@ -170,7 +172,7 @@ async function runTurn(input: {
       flags: context.flags,
       actors: context.actors,
       items: context.items,
-      recentTurns: context.turns.slice(0, 6).map((turn) => ({ input: turn.userInput, text: turn.chapterText })),
+      recentTurns: context.turns.slice(0, 6).map((turn) => ({ input: turn.userInput, title: turn.chapterTitle, text: turn.chapterText })),
       summary: context.summaries[0]?.text ?? context.worldState.summary,
       previousResponseId: context.thread.providerResponseId,
       sequenceName: getSequence(state.pathwayId, state.sequence)?.name ?? "未知",
@@ -224,9 +226,19 @@ async function runTurn(input: {
 
   const finalState = statePayload as TurnStatePayload | null;
   if (!finalState) throw new Error("叙事裁定缺失，请重试本轮。");
+  const previousTitles = context.turns.map((turn) => turn.chapterTitle).filter((title): title is string => Boolean(title));
+  const chapterTitle = uniqueChapterTitle(
+    resolveChapterTitle(finalState.chapterTitle, {
+      phase: input.phase,
+      userInput: input.userInput,
+      location: finalState.worldState.location,
+    }),
+    previousTitles,
+  );
   const turn: StoryTurn = {
     id: uid(), threadId: input.threadId, parentTurnId: context.thread.currentTurnId, inputMode: input.mode,
     userInput: input.phase === "opening" ? "（第一章开篇）" : input.userInput,
+    chapterTitle,
     chapterText, operations: finalState.operations, suggestedChoices: finalState.suggestedChoices,
     providerResponseId: responseId, provider, model, status: "complete", createdAt: new Date().toISOString(),
   };
@@ -285,6 +297,8 @@ export async function createRealityEcho(quest: Quest, completion: QuestCompletio
   const quality = { missed: "未达成", done: "完成", good: "良好", excellent: "卓越" }[completion.quality];
   return submitStoryTurn({ threadId: event.threadId, userInput: `现实行动“${quest.title}”已经结束，完成质量为${quality}，实际用时${completion.actualMinutes}分钟。请只根据这个结果生成现实回响，不增加隐藏 XP。`, mode: "action" });
 }
+
+
 
 
 

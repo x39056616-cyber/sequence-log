@@ -534,6 +534,7 @@ export interface StoryTurn {
   parentTurnId: string | null;
   inputMode: StoryInputMode;
   userInput: string;
+  chapterTitle?: string;
   chapterText: string;
   operations: TurnOperation[];
   suggestedChoices: Array<{ id: string; label: string; description: string }>;
@@ -800,5 +801,6 @@ export interface Formula {
   mythicForm: string;
   sourceKind: "author";
 }
+
 
 

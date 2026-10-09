@@ -71,7 +71,7 @@ export async function POST(request: Request) {
         userInput: phase === "opening" ? "（开篇：请依据人物档案与命运写下第一章）" : input.userInput,
         mode: input.mode,
         worldState: input.worldState,
-        recentTurns: input.recentTurns as Array<{ input: string; text: string }>,
+        recentTurns: input.recentTurns as Array<{ input: string; title?: string; text: string }>,
         summary: input.summary,
         previousResponseId: input.previousResponseId,
         phase,
@@ -105,10 +105,10 @@ export async function POST(request: Request) {
 
       const snapshot = { worldState, flags, actors, items };
       let adjudication = await adjudicateTurn({ ...narrativeInput, chapterText }, aiConfig);
-      if (!adjudication) adjudication = localAdjudication(input.userInput || "开篇", snapshot);
+      if (!adjudication) adjudication = localAdjudication(input.userInput || "开篇", snapshot, phase);
       const operations = adjudication.operations as TurnOperation[];
       const applied = applyTurnOperations(snapshot, operations);
-      send("state", { worldState: applied.worldState, flags: applied.flags, actors: applied.actors, items: applied.items, taskProposals: applied.taskProposals, operations, suggestedChoices: adjudication.suggestedChoices, summaryDelta: adjudication.summaryDelta });
+      send("state", { chapterTitle: adjudication.chapterTitle, worldState: applied.worldState, flags: applied.flags, actors: applied.actors, items: applied.items, taskProposals: applied.taskProposals, operations, suggestedChoices: adjudication.suggestedChoices, summaryDelta: adjudication.summaryDelta });
       send("done", { responseId, elapsedMs: Date.now() - startedAt, provider: aiConfig.configured ? aiConfig.provider : "local", model: aiConfig.configured ? aiConfig.narrativeModel : "local-narrative" });
       controller.close();
     },
@@ -116,6 +116,8 @@ export async function POST(request: Request) {
 
   return new Response(stream, { headers: { "Content-Type": "text/event-stream; charset=utf-8", "Cache-Control": "no-cache, no-transform", Connection: "keep-alive" } });
 }
+
+
 
 
 

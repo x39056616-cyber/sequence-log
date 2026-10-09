@@ -3,6 +3,7 @@ import { turnAdjudicationSchema, TURN_ADJUDICATION_JSON_SCHEMA } from "@/lib/ai/
 import { characterBackgroundSchema, BACKGROUND_JSON_SCHEMA, normalizeBackgroundFields, type CharacterBackgroundDraft } from "@/lib/ai/background-schema";
 import type { ResolvedAIConfig } from "@/lib/ai/config";
 import { styleRulesForPrompt, type StyleAnchor } from "@/lib/lore/style-lexicon";
+import { normalizeChapterTitle } from "@/lib/adventure/chapter-title";
 
 export interface AIProviderStatus {
   textConfigured: boolean;
@@ -88,6 +89,7 @@ function backgroundPrompt(input: BackgroundRequest) {
     "硬性要求：",
     "1. 人物是世界里的原创非凡者，不是原作任何主角；不得复制原作原文，不得直接使用原作人物作为主角。",
     "2. 必须逐条采用给定命运里的每一个条目（身份类型、开局遭遇、异常事件、阵营与教会、地点与时代、随身物与封印物、代号），不得改写、替换或省略。",
+    "2a. 主角年龄必须落在 20–26 岁之间，使用「二十二岁」或「22岁」这类写法；禁止写成未成年人、中老年人或模糊年龄段，并让背景正文与年龄字段一致。",
     "2a. 开局遭遇要写成具体的相遇：对方是谁、在什么场合出现、留下了什么；若是原作人物，不得让其变成你的从属或随意驱使的工具。",
     "2b. 异常事件要写成一段真实发生过的经历，而不是名词解释。",
     "2c. 随身物与封印物必须原样写进 keepsake 字段，并在正文里交代它的来历与一个未解之处。",
@@ -151,10 +153,13 @@ async function requestBackground(input: BackgroundRequest, status: ResolvedAICon
     if (!text) throw new Error("人物背景返回为空");
     const decoded = JSON.parse(text.replace(/^```json\s*|\s*```$/g, "")) as { fields?: Record<string, unknown>; backgroundText?: unknown };
     // Normalise before validation: a verbose field must not discard the whole background.
-    return characterBackgroundSchema.parse({
-      fields: normalizeBackgroundFields(decoded.fields ?? {}),
-      backgroundText: typeof decoded.backgroundText === "string" ? decoded.backgroundText.trim().slice(0, 2000) : "",
-    });
+    const fields = normalizeBackgroundFields(decoded.fields ?? {});
+    const rawAge = typeof decoded.fields?.age === "string" ? decoded.fields.age.trim() : "";
+    let backgroundText = typeof decoded.backgroundText === "string" ? decoded.backgroundText.trim().slice(0, 2000) : "";
+    if (rawAge && rawAge !== fields.age && backgroundText.includes(rawAge)) {
+      backgroundText = backgroundText.split(rawAge).join(fields.age);
+    }
+    return characterBackgroundSchema.parse({ fields, backgroundText });
   } finally {
     clearTimeout(timer);
   }
@@ -169,7 +174,7 @@ export interface NarrativeStreamInput {
   userInput: string;
   mode: string;
   worldState: Record<string, unknown>;
-  recentTurns: Array<{ input: string; text: string }>;
+  recentTurns: Array<{ input: string; title?: string; text: string }>;
   summary: string;
   previousResponseId?: string | null;
   phase?: "opening" | "turn";
@@ -223,7 +228,7 @@ export function turnPrompt(input: NarrativeStreamInput, phase: "narrative" | "ad
       ? (isOpening
         ? `这是第一章开篇。请依据人物档案与命运，写出人物成为非凡者前后的关键片段与当前处境，${target}，并在结尾留下一个明确的悬念或迫近的问题。不要输出 JSON，只输出小说正文。`
         : `请续写下一章，${target}。承接世界状态与最近几轮，写清用户行动造成的直接后果，并在结尾留下新的入口。不要输出 JSON，只输出小说正文。`)
-      : "你是状态裁判。根据用户行动、正文和当前世界状态，只输出结构化操作、1–4 个建议行动和摘要变化。不要重写正文。",
+      : "你是状态裁判与章节命名者。根据用户行动、正文和当前世界状态，输出本章 chapterTitle（2–16 个汉字，像小说章名，不带「第X章」，不与最近章节重复）、结构化操作、1–4 个建议行动和摘要变化。不要重写正文。",
     (input.lorePassages ?? []).length > 0
       ? "【原文段落·最高依据】以下是原作全文里检索到的段落，必须与它们保持一致，不得冲突：\n" + (input.lorePassages ?? []).map((passage, index) => `〔${index + 1}〕${passage.chapter}\n${passage.text}`).join("\n\n")
       : "（本次未检索到原文段落，请保守描写）",
@@ -290,7 +295,11 @@ export async function adjudicateTurn(input: NarrativeStreamInput & { chapterText
   const payload = await response.json() as Record<string, unknown>;
   const text = readText(payload, isResponses);
   if (!text) return null;
-  try { return turnAdjudicationSchema.parse(JSON.parse(text.replace(/^```json\s*|\s*```$/g, ""))); } catch { return null; }
+  try {
+    const decoded = JSON.parse(text.replace(/^```json\s*|\s*```$/g, "")) as Record<string, unknown>;
+    decoded.chapterTitle = normalizeChapterTitle(typeof decoded.chapterTitle === "string" ? decoded.chapterTitle : "");
+    return turnAdjudicationSchema.parse(decoded);
+  } catch { return null; }
 }
 
 function extractStreamDelta(event: Record<string, unknown>) {
@@ -304,6 +313,10 @@ function extractResponseId(event: Record<string, unknown>) {
   const response = event.response as Record<string, unknown> | undefined;
   return typeof response?.id === "string" ? response.id : null;
 }
+
+
+
+
 
 
 

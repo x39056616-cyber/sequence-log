@@ -35,6 +35,7 @@ const operationSchema = z.discriminatedUnion("type", [
 ]);
 
 export const turnAdjudicationSchema = z.object({
+  chapterTitle: z.string().max(24).default(""),
   operations: z.array(operationSchema).max(12),
   suggestedChoices: z.array(z.object({ id: z.string(), label: z.string().min(2).max(40), description: z.string().max(180) })).min(1).max(4),
   summaryDelta: z.string().max(500).default(""),
@@ -45,8 +46,9 @@ export type TurnAdjudication = z.infer<typeof turnAdjudicationSchema>;
 export const TURN_ADJUDICATION_JSON_SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["operations", "suggestedChoices", "summaryDelta"],
+  required: ["chapterTitle", "operations", "suggestedChoices", "summaryDelta"],
   properties: {
+    chapterTitle: { type: "string" },
     operations: {
       type: "array",
       items: {
@@ -63,5 +65,6 @@ export const TURN_ADJUDICATION_JSON_SCHEMA = {
     summaryDelta: { type: "string" },
   },
 } as const;
+
 
 

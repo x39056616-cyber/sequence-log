@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { db, ensureSeed } from "@/lib/db";
 import { exportBackup, getActiveCharacterBackground, importBackup, listCharacterBackgrounds, saveCharacterBackground, selectPathway } from "@/lib/repository";
 import { BANNED_NARRATION_PHRASES, findBannedPhrase, generateCharacterBackground, maxTokensForChapterLength, turnPrompt, type NarrativeStreamInput } from "@/lib/ai/provider";
-import { BACKGROUND_JSON_SCHEMA, characterBackgroundSchema } from "@/lib/ai/background-schema";
+import { BACKGROUND_JSON_SCHEMA, characterBackgroundSchema, normalizeBackgroundFields } from "@/lib/ai/background-schema";
 import type { BackgroundFields } from "@/lib/types";
 import type { ResolvedAIConfig } from "@/lib/ai/config";
 
@@ -63,6 +63,12 @@ describe("character background schema", () => {
     expect(required).toContain("name");
     expect(required).toContain("keepsake");
     expect(required).toHaveLength(10);
+  });
+  it("keeps the character age within 20-26", () => {
+    const ages = ["20岁", "21岁", "22岁", "23岁", "24岁", "25岁", "26岁"];
+    expect(ages).toContain(normalizeBackgroundFields({ ...fields, age: "三十四岁" }).age);
+    expect(normalizeBackgroundFields({ ...fields, age: "二十六" }).age).toBe("二十六岁");
+    expect(normalizeBackgroundFields({ ...fields, age: "22岁" }).age).toBe("22岁");
   });
 });
 
@@ -200,6 +206,7 @@ describe("backup v5", () => {
     expect(await getActiveCharacterBackground()).toBeNull();
   });
 });
+
 
 
 
